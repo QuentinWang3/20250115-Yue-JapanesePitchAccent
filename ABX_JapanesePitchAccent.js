@@ -184,7 +184,7 @@ var abx_trial = {
         play_sound_x,     // 播放 X 音频
         abx_response      // 提示用户选择
     ],
-    timeline_variables: test_timeline_variable, // 引用试次变量
+    timeline_variables: abx_timeline_variable, // 引用试次变量
     randomize_order: true // 随机化试次顺序
 };
 
