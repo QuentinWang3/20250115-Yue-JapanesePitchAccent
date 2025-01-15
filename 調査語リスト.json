@@ -1,0 +1,758 @@
+[
+ {
+   "content": "ムロテラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "0-1 pair_murotera2.wav"
+ },
+ {
+   "content": "ムロテラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "0-1 pair_murotera3.wav"
+ },
+ {
+   "content": "ムロテラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "0-1 pair_murotera4.wav"
+ },
+ {
+   "content": "ムロテラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "0-1 pair_murotera5.wav"
+ },
+ {
+   "content": "ムロテラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "0-1 pair_murotera6.wav"
+ },
+ {
+   "content": "ムロテラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "1-3 pair_murotera2.wav"
+ },
+ {
+   "content": "ムロテラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "1-3 pair_murotera3.wav"
+ },
+ {
+   "content": "ムロテラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "1-3 pair_murotera4.wav"
+ },
+ {
+   "content": "ムロテラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "1-3 pair_murotera5.wav"
+ },
+ {
+   "content": "ムロテラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "1-3 pair_murotera6.wav"
+ },
+ {
+   "content": "ムロデラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murodera1.wav",
+   "SoundB": "0-1 pair_murodera7.wav",
+   "SoundX": "0-1 pair_murodera2.wav"
+ },
+ {
+   "content": "ムロデラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murodera1.wav",
+   "SoundB": "0-1 pair_murodera7.wav",
+   "SoundX": "0-1 pair_murodera3.wav"
+ },
+ {
+   "content": "ムロデラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murodera1.wav",
+   "SoundB": "0-1 pair_murodera7.wav",
+   "SoundX": "0-1 pair_murodera4.wav"
+ },
+ {
+   "content": "ムロデラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murodera1.wav",
+   "SoundB": "0-1 pair_murodera7.wav",
+   "SoundX": "0-1 pair_murodera5.wav"
+ },
+ {
+   "content": "ムロデラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murodera1.wav",
+   "SoundB": "0-1 pair_murodera7.wav",
+   "SoundX": "0-1 pair_murodera6.wav"
+ },
+ {
+   "content": "ムロデラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "1-3 pair_murotera2.wav"
+ },
+ {
+   "content": "ムロデラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "1-3 pair_murotera3.wav"
+ },
+ {
+   "content": "ムロデラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "1-3 pair_murotera4.wav"
+ },
+ {
+   "content": "ムロデラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "1-3 pair_murotera5.wav"
+ },
+ {
+   "content": "ムロデラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murotera1.wav",
+   "SoundB": "1-3 pair_murotera7.wav",
+   "SoundX": "1-3 pair_murotera6.wav"
+ },
+ {
+   "content": "ムロレラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murorera1.wav",
+   "SoundB": "0-1 pair_murorera7.wav",
+   "SoundX": "0-1 pair_murorera2.wav"
+ },
+ {
+   "content": "ムロレラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murorera1.wav",
+   "SoundB": "0-1 pair_murorera7.wav",
+   "SoundX": "0-1 pair_murorera3.wav"
+ },
+ {
+   "content": "ムロレラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murorera1.wav",
+   "SoundB": "0-1 pair_murorera7.wav",
+   "SoundX": "0-1 pair_murorera4.wav"
+ },
+ {
+   "content": "ムロレラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murorera1.wav",
+   "SoundB": "0-1 pair_murorera7.wav",
+   "SoundX": "0-1 pair_murorera5.wav"
+ },
+ {
+   "content": "ムロレラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murorera1.wav",
+   "SoundB": "0-1 pair_murorera7.wav",
+   "SoundX": "0-1 pair_murorera6.wav"
+ },
+ {
+   "content": "ムロレラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murorera1.wav",
+   "SoundB": "1-3 pair_murorera7.wav",
+   "SoundX": "1-3 pair_murorera2.wav"
+ },
+ {
+   "content": "ムロレラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murorera2.wav",
+   "SoundB": "1-3 pair_murorera7.wav",
+   "SoundX": "1-3 pair_murorera3.wav"
+ },
+ {
+   "content": "ムロレラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murorera3.wav",
+   "SoundB": "1-3 pair_murorera7.wav",
+   "SoundX": "1-3 pair_murorera4.wav"
+ },
+ {
+   "content": "ムロレラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murorera4.wav",
+   "SoundB": "1-3 pair_murorera7.wav",
+   "SoundX": "1-3 pair_murorera5.wav"
+ },
+ {
+   "content": "ムロレラ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_murorera5.wav",
+   "SoundB": "1-3 pair_murorera7.wav",
+   "SoundX": "1-3 pair_murorera6.wav"
+ },
+ {
+   "content": "ムテラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_mutera1.wav",
+   "SoundB": "0-1 pair_mutera7.wav",
+   "SoundX": "0-1 pair_mutera2.wav"
+ },
+ {
+   "content": "ムテラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_mutera1.wav",
+   "SoundB": "0-1 pair_mutera7.wav",
+   "SoundX": "0-1 pair_mutera3.wav"
+ },
+ {
+   "content": "ムテラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_mutera1.wav",
+   "SoundB": "0-1 pair_mutera7.wav",
+   "SoundX": "0-1 pair_mutera4.wav"
+ },
+ {
+   "content": "ムテラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_mutera1.wav",
+   "SoundB": "0-1 pair_mutera7.wav",
+   "SoundX": "0-1 pair_mutera5.wav"
+ },
+ {
+   "content": "ムテラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_mutera1.wav",
+   "SoundB": "0-1 pair_mutera7.wav",
+   "SoundX": "0-1 pair_mutera6.wav"
+ },
+ {
+   "content": "ムテラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_mutera1.wav",
+   "SoundB": "1-2 pair_mutera7.wav",
+   "SoundX": "1-2 pair_mutera2.wav"
+ },
+ {
+   "content": "ムテラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_mutera1.wav",
+   "SoundB": "1-2 pair_mutera7.wav",
+   "SoundX": "1-2 pair_mutera3.wav"
+ },
+ {
+   "content": "ムテラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_mutera1.wav",
+   "SoundB": "1-2 pair_mutera7.wav",
+   "SoundX": "1-2 pair_mutera4.wav"
+ },
+ {
+   "content": "ムテラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_mutera1.wav",
+   "SoundB": "1-2 pair_mutera7.wav",
+   "SoundX": "1-2 pair_mutera5.wav"
+ },
+ {
+   "content": "ムテラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_mutera1.wav",
+   "SoundB": "1-2 pair_mutera7.wav",
+   "SoundX": "1-2 pair_mutera6.wav"
+ },
+ {
+   "content": "ムデラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_mudera1.wav",
+   "SoundB": "0-1 pair_mudera7.wav",
+   "SoundX": "0-1 pair_mudera2.wav"
+ },
+ {
+   "content": "ムデラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_mudera1.wav",
+   "SoundB": "0-1 pair_mudera7.wav",
+   "SoundX": "0-1 pair_mudera3.wav"
+ },
+ {
+   "content": "ムデラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_mudera1.wav",
+   "SoundB": "0-1 pair_mudera7.wav",
+   "SoundX": "0-1 pair_mudera4.wav"
+ },
+ {
+   "content": "ムデラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_mudera1.wav",
+   "SoundB": "0-1 pair_mudera7.wav",
+   "SoundX": "0-1 pair_mudera5.wav"
+ },
+ {
+   "content": "ムデラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_mudera1.wav",
+   "SoundB": "0-1 pair_mudera7.wav",
+   "SoundX": "0-1 pair_mudera6.wav"
+ },
+ {
+   "content": "ムデラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_mudera1.wav",
+   "SoundB": "1-2 pair_mudera7.wav",
+   "SoundX": "1-2 pair_mudera2.wav"
+ },
+ {
+   "content": "ムデラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_mudera1.wav",
+   "SoundB": "1-2 pair_mudera7.wav",
+   "SoundX": "1-2 pair_mudera3.wav"
+ },
+ {
+   "content": "ムデラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_mudera1.wav",
+   "SoundB": "1-2 pair_mudera7.wav",
+   "SoundX": "1-2 pair_mudera4.wav"
+ },
+ {
+   "content": "ムデラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_mudera1.wav",
+   "SoundB": "1-2 pair_mudera7.wav",
+   "SoundX": "1-2 pair_mudera5.wav"
+ },
+ {
+   "content": "ムデラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_mudera1.wav",
+   "SoundB": "1-2 pair_mudera7.wav",
+   "SoundX": "1-2 pair_mudera6.wav"
+ },
+ {
+   "content": "ムレラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murera1.wav",
+   "SoundB": "0-1 pair_murera7.wav",
+   "SoundX": "0-1 pair_murera2.wav"
+ },
+ {
+   "content": "ムレラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murera1.wav",
+   "SoundB": "0-1 pair_murera7.wav",
+   "SoundX": "0-1 pair_murera3.wav"
+ },
+ {
+   "content": "ムレラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murera1.wav",
+   "SoundB": "0-1 pair_murera7.wav",
+   "SoundX": "0-1 pair_murera4.wav"
+ },
+ {
+   "content": "ムレラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murera1.wav",
+   "SoundB": "0-1 pair_murera7.wav",
+   "SoundX": "0-1 pair_murera5.wav"
+ },
+ {
+   "content": "ムレラ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_murera1.wav",
+   "SoundB": "0-1 pair_murera7.wav",
+   "SoundX": "0-1 pair_murera6.wav"
+ },
+ {
+   "content": "ムレラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_murera1.wav",
+   "SoundB": "1-2 pair_murera7.wav",
+   "SoundX": "1-2 pair_murera2.wav"
+ },
+ {
+   "content": "ムレラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_murera1.wav",
+   "SoundB": "1-2 pair_murera7.wav",
+   "SoundX": "1-2 pair_murera3.wav"
+ },
+ {
+   "content": "ムレラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_murera1.wav",
+   "SoundB": "1-2 pair_murera7.wav",
+   "SoundX": "1-2 pair_murera4.wav"
+ },
+ {
+   "content": "ムレラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_murera1.wav",
+   "SoundB": "1-2 pair_murera7.wav",
+   "SoundX": "1-2 pair_murera5.wav"
+ },
+ {
+   "content": "ムレラ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_murera1.wav",
+   "SoundB": "1-2 pair_murera7.wav",
+   "SoundX": "1-2 pair_murera6.wav"
+ },
+ {
+   "content": "レレレレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_rererere1.wav",
+   "SoundB": "0-1 pair_rererere7.wav",
+   "SoundX": "0-1 pair_rererere2.wav"
+ },
+ {
+   "content": "レレレレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_rererere1.wav",
+   "SoundB": "0-1 pair_rererere7.wav",
+   "SoundX": "0-1 pair_rererere3.wav"
+ },
+ {
+   "content": "レレレレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_rererere1.wav",
+   "SoundB": "0-1 pair_rererere7.wav",
+   "SoundX": "0-1 pair_rererere4.wav"
+ },
+ {
+   "content": "レレレレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_rererere1.wav",
+   "SoundB": "0-1 pair_rererere7.wav",
+   "SoundX": "0-1 pair_rererere5.wav"
+ },
+ {
+   "content": "レレレレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_rererere1.wav",
+   "SoundB": "0-1 pair_rererere7.wav",
+   "SoundX": "0-1 pair_rererere6.wav"
+ },
+ {
+   "content": "レレレレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_rererere1.wav",
+   "SoundB": "1-3 pair_rererere7.wav",
+   "SoundX": "1-3 pair_rererere2.wav"
+ },
+ {
+   "content": "レレレレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_rererere1.wav",
+   "SoundB": "1-3 pair_rererere7.wav",
+   "SoundX": "1-3 pair_rererere3.wav"
+ },
+ {
+   "content": "レレレレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_rererere1.wav",
+   "SoundB": "1-3 pair_rererere7.wav",
+   "SoundX": "1-3 pair_rererere4.wav"
+ },
+ {
+   "content": "レレレレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_rererere1.wav",
+   "SoundB": "1-3 pair_rererere7.wav",
+   "SoundX": "1-3 pair_rererere5.wav"
+ },
+ {
+   "content": "レレレレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_rererere1.wav",
+   "SoundB": "1-3 pair_rererere7.wav",
+   "SoundX": "1-3 pair_rererere6.wav"
+ },
+ {
+   "content": "レレレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_rerere1.wav",
+   "SoundB": "0-1 pair_rerere5.wav",
+   "SoundX": "0-1 pair_rerere2.wav"
+ },
+ {
+   "content": "レレレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_rerere1.wav",
+   "SoundB": "0-1 pair_rerere5.wav",
+   "SoundX": "0-1 pair_rerere3.wav"
+ },
+ {
+   "content": "レレレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_rerere1.wav",
+   "SoundB": "0-1 pair_rerere5.wav",
+   "SoundX": "0-1 pair_rerere4.wav"
+ },
+ {
+   "content": "レレレ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_rerere1.wav",
+   "SoundB": "1-2 pair_rerere5.wav",
+   "SoundX": "1-2 pair_rerere2.wav"
+ },
+ {
+   "content": "レレレ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_rerere1.wav",
+   "SoundB": "1-2 pair_rerere5.wav",
+   "SoundX": "1-2 pair_rerere3.wav"
+ },
+ {
+   "content": "レレレ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_rerere1.wav",
+   "SoundB": "1-2 pair_rerere5.wav",
+   "SoundX": "1-2 pair_rerere4.wav"
+ },
+ {
+   "content": "レテレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_retere1.wav",
+   "SoundB": "0-1 pair_retere5.wav",
+   "SoundX": "0-1 pair_retere2.wav"
+ },
+ {
+   "content": "レテレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_retere1.wav",
+   "SoundB": "0-1 pair_retere5.wav",
+   "SoundX": "0-1 pair_retere3.wav"
+ },
+ {
+   "content": "レテレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_retere1.wav",
+   "SoundB": "0-1 pair_retere5.wav",
+   "SoundX": "0-1 pair_retere4.wav"
+ },
+ {
+   "content": "レテレ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_retere1.wav",
+   "SoundB": "1-2 pair_retere5.wav",
+   "SoundX": "1-2 pair_retere2.wav"
+ },
+ {
+   "content": "レテレ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_retere1.wav",
+   "SoundB": "1-2 pair_retere5.wav",
+   "SoundX": "1-2 pair_retere3.wav"
+ },
+ {
+   "content": "レテレ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_retere1.wav",
+   "SoundB": "1-2 pair_retere5.wav",
+   "SoundX": "1-2 pair_retere4.wav"
+ },
+ {
+   "content": "レデレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_redere1.wav",
+   "SoundB": "0-1 pair_redere5.wav",
+   "SoundX": "0-1 pair_redere2.wav"
+ },
+ {
+   "content": "レデレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_redere1.wav",
+   "SoundB": "0-1 pair_redere5.wav",
+   "SoundX": "0-1 pair_redere3.wav"
+ },
+ {
+   "content": "レデレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_redere1.wav",
+   "SoundB": "0-1 pair_redere5.wav",
+   "SoundX": "0-1 pair_redere4.wav"
+ },
+ {
+   "content": "レデレ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_redere1.wav",
+   "SoundB": "1-2 pair_redere5.wav",
+   "SoundX": "1-2 pair_redere2.wav"
+ },
+ {
+   "content": "レデレ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_redere1.wav",
+   "SoundB": "1-2 pair_redere5.wav",
+   "SoundX": "1-2 pair_redere3.wav"
+ },
+ {
+   "content": "レデレ",
+   "pair_type": "1-2 pair",
+   "SoundA": "1-2 pair_redere1.wav",
+   "SoundB": "1-2 pair_redere5.wav",
+   "SoundX": "1-2 pair_redere4.wav"
+ },
+ {
+   "content": "レッテレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_rettere1.wav",
+   "SoundB": "0-1 pair_rettere7.wav",
+   "SoundX": "0-1 pair_rettere2.wav"
+ },
+ {
+   "content": "レッテレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_rettere1.wav",
+   "SoundB": "0-1 pair_rettere7.wav",
+   "SoundX": "0-1 pair_rettere3.wav"
+ },
+ {
+   "content": "レッテレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_rettere1.wav",
+   "SoundB": "0-1 pair_rettere7.wav",
+   "SoundX": "0-1 pair_rettere4.wav"
+ },
+ {
+   "content": "レッテレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_rettere1.wav",
+   "SoundB": "0-1 pair_rettere7.wav",
+   "SoundX": "0-1 pair_rettere5.wav"
+ },
+ {
+   "content": "レッテレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_rettere1.wav",
+   "SoundB": "0-1 pair_rettere7.wav",
+   "SoundX": "0-1 pair_rettere6.wav"
+ },
+ {
+   "content": "レッテレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_rettere1.wav",
+   "SoundB": "1-3 pair_rettere7.wav",
+   "SoundX": "1-3 pair_rettere2.wav"
+ },
+ {
+   "content": "レッテレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_rettere1.wav",
+   "SoundB": "1-3 pair_rettere7.wav",
+   "SoundX": "1-3 pair_rettere3.wav"
+ },
+ {
+   "content": "レッテレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_rettere1.wav",
+   "SoundB": "1-3 pair_rettere7.wav",
+   "SoundX": "1-3 pair_rettere4.wav"
+ },
+ {
+   "content": "レッテレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_rettere1.wav",
+   "SoundB": "1-3 pair_rettere7.wav",
+   "SoundX": "1-3 pair_rettere5.wav"
+ },
+ {
+   "content": "レッテレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_rettere1.wav",
+   "SoundB": "1-3 pair_rettere7.wav",
+   "SoundX": "1-3 pair_rettere6.wav"
+ },
+ {
+   "content": "レッデレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_reddere1.wav",
+   "SoundB": "0-1 pair_reddere7.wav",
+   "SoundX": "0-1 pair_reddere2.wav"
+ },
+ {
+   "content": "レッデレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_reddere1.wav",
+   "SoundB": "0-1 pair_reddere7.wav",
+   "SoundX": "0-1 pair_reddere3.wav"
+ },
+ {
+   "content": "レッデレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_reddere1.wav",
+   "SoundB": "0-1 pair_reddere7.wav",
+   "SoundX": "0-1 pair_reddere4.wav"
+ },
+ {
+   "content": "レッデレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_reddere1.wav",
+   "SoundB": "0-1 pair_reddere7.wav",
+   "SoundX": "0-1 pair_reddere5.wav"
+ },
+ {
+   "content": "レッデレ",
+   "pair_type": "0-1 pair",
+   "SoundA": "0-1 pair_reddere1.wav",
+   "SoundB": "0-1 pair_reddere7.wav",
+   "SoundX": "0-1 pair_reddere6.wav"
+ },
+ {
+   "content": "レッデレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_reddere1.wav",
+   "SoundB": "1-3 pair_reddere7.wav",
+   "SoundX": "1-3 pair_reddere2.wav"
+ },
+ {
+   "content": "レッデレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_reddere1.wav",
+   "SoundB": "1-3 pair_reddere7.wav",
+   "SoundX": "1-3 pair_reddere3.wav"
+ },
+ {
+   "content": "レッデレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_reddere1.wav",
+   "SoundB": "1-3 pair_reddere7.wav",
+   "SoundX": "1-3 pair_reddere4.wav"
+ },
+ {
+   "content": "レッデレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_reddere1.wav",
+   "SoundB": "1-3 pair_reddere7.wav",
+   "SoundX": "1-3 pair_reddere5.wav"
+ },
+ {
+   "content": "レッデレ",
+   "pair_type": "1-3 pair",
+   "SoundA": "1-3 pair_reddere1.wav",
+   "SoundB": "1-3 pair_reddere7.wav",
+   "SoundX": "1-3 pair_reddere6.wav"
+ }
+]

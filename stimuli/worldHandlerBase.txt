@@ -1,0 +1,3 @@
+SettingFilePath /Users/liuyue/Desktop/worldTools2022June23 2
+Position 291   20  720  793
+Extension off
