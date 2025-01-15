@@ -87,8 +87,8 @@ var play_sound_a = {
     trial_ends_after_audio: true // 音频播放结束后自动结束
 };
 
-//delay2
-var delay1 = {
+//delay
+var delay = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus:function() {
         return `
@@ -112,18 +112,6 @@ var play_sound_b = {
         音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
         </p>`},
     trial_ends_after_audio: true // 音频播放结束后自动结束
-};
-
-//delay
-var delay2 = {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus:function() {
-        return `
-        <p style= "white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;">
-        音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
-        </p>`},
-    choices: 'NO_KEYS',
-    trial_duration: 500,
 };
 
 
@@ -179,8 +167,9 @@ var abx_trial = {
         fixation,         // 注意点：+
         display_content,  // 显示音声内容
         play_sound_a,     // 播放 A 音频
-        delay1,delay2,
+        delay,
         play_sound_b,     // 播放 B 音频
+        delay,
         play_sound_x,     // 播放 X 音频
         abx_response      // 提示用户选择
     ],
