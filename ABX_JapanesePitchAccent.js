@@ -15,7 +15,7 @@ var start_experiment = {
         <h2 style="text-align: center;">日本語アクセント離散度知覚実験</h2>
         <p style="text-align: left; font-size: 18px; line-height: 1.6;">
             実験へのご参加ありがとうございます。<br>
-            この弁別実験の各課題では <strong>a -> b -> x</strong> という順序で 3つの音が流されて、音声の内容を見ながら<br>
+            この弁別実験の各課題では <strong>a -> x -> b</strong> という順序で 3つの音が流されて、音声の内容を見ながら<br>
             3つ目の音 (<strong>x</strong>) が以下のどちらかに似ているのかを判断してもらいます：<br>
             (a) 1つ目の音<br>
             (b) 2つ目の音<br>
@@ -25,10 +25,10 @@ var start_experiment = {
             静かな環境で実施し、可能な場合はイヤホンなどをご使用ください。<br>
         </p>
         <p style="text-align: center; font-size: 18px; margin-top: 20px;">
-            下のボタンをクリックして実験を始めてください。
+            下のボタンをクリックして練習セッションを始めてください。
         </p>
     `,
-    choices: ['実験を始めます'],
+    choices: ['練習を始めます'],
     on_finish: function() {
         // 激活 AudioContext
         const audioContext = jsPsych.pluginAPI.audioContext();
@@ -39,14 +39,14 @@ var start_experiment = {
 };
 
 
-var abx_audio_preload = 
-abx_timeline_variable.map(function(obj){
+var axb_audio_preload = 
+axb_timeline_variable.map(function(obj){
     return [obj.SoundA, obj.SoundB, obj.SoundX];
 }).flat(1);
 
 var preload = {
     type: jsPsychPreload,
-    audio: abx_audio_preload,
+    audio: axb_audio_preload,
 };
 
 
@@ -96,7 +96,7 @@ var delay = {
         音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
         </p>`},
     choices: 'NO_KEYS',
-    trial_duration: 500,
+    trial_duration: jsPsych.timelineVariable('delay'),
 };
 
 
@@ -130,15 +130,15 @@ var play_sound_x = {
 
 
 // 第二页：提示用户进行选择
-var abx_response = {
+var axb_response_prac = {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: function() {
+    stimulus: function(){
         return `
         <p style="white-space: nowrap; text-align: center; padding: 20px; background-color: lightgray;">
         音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
         </p>
         <p style="width: 100%"> 
-        3番の音声は1番の音声と似たアクセントであれば<span style="background-color: yellow;">[ A ]キー</span>を、2番の音声と似たアクセントであれば <span style="background-color: yellow;">[ B ]キー</span>を<u>押してください</u>。
+        2番の音声は1番の音声と似たアクセントであれば<span style="background-color: yellow;">[ A ]キー</span>を、3番の音声と似たアクセントであれば <span style="background-color: yellow;">[ B ]キー</span>を<u>押してください</u>。
         </p>`},
     choices: ['a', 'b'],
     prompt: `
@@ -147,33 +147,104 @@ var abx_response = {
                 1番の音声と似たアクセント：[A] キー                   
             </div>
             <div style="display: inline-block; padding: 15px 25px; margin-top: 20px; border: 2px solid #007bff; border-radius: 10px; background-color: #e7f3ff; color: #007bff; font-size: 18px;">
-                2番の音声と似たアクセント： [B] キー                   
+                3番の音声と似たアクセント： [B] キー                   
             </div>
         </div>
     `,
     data: {
-        phase: 'abx',
+        phase: 'axb_practice',
         content: jsPsych.timelineVariable('Content'), // 音声内容
         pair_type: jsPsych.timelineVariable('pair_type'),
         sound_a: jsPsych.timelineVariable('SoundA'),
         sound_b: jsPsych.timelineVariable('SoundB'),
-        sound_x: jsPsych.timelineVariable('SoundX')
+        sound_x: jsPsych.timelineVariable('SoundX'),
+        mora: jsPsych.timelineVariable('mora')
+    }
+
+};
+
+
+var axb_response = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: function() {
+        return `
+        <p style="white-space: nowrap; text-align: center; padding: 20px; background-color: lightgray;">
+        音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
+        </p>
+        <p style="width: 100%"> 
+        2番の音声は1番の音声と似たアクセントであれば<span style="background-color: yellow;">[ A ]キー</span>を、3番の音声と似たアクセントであれば <span style="background-color: yellow;">[ B ]キー</span>を<u>押してください</u>。
+        </p>`},
+    choices: ['a', 'b'],
+    prompt: `
+        <div style="display: flex; justify-content: space-around; margin-top: 20px;">
+            <div style="display: inline-block; padding: 15px 25px; margin-top: 20px; border: 2px solid #007bff; border-radius: 10px; background-color: #e7f3ff; color: #007bff; font-size: 18px;">
+                1番の音声と似たアクセント：[A] キー                   
+            </div>
+            <div style="display: inline-block; padding: 15px 25px; margin-top: 20px; border: 2px solid #007bff; border-radius: 10px; background-color: #e7f3ff; color: #007bff; font-size: 18px;">
+                3番の音声と似たアクセント： [B] キー                   
+            </div>
+        </div>
+    `,
+    data: {
+        phase: 'axb',
+        content: jsPsych.timelineVariable('Content'), // 音声内容
+        pair_type: jsPsych.timelineVariable('pair_type'),
+        sound_a: jsPsych.timelineVariable('SoundA'),
+        sound_b: jsPsych.timelineVariable('SoundB'),
+        sound_x: jsPsych.timelineVariable('SoundX'),
+        mora: jsPsych.timelineVariable('mora')
     }
 };
 
-// 定义 ABX 试次
-var abx_trial = {
+
+//定义practice试次
+var axb_prac = {
     timeline: [
         fixation,         // 注意点：+
         display_content,  // 显示音声内容
         play_sound_a,     // 播放 A 音频
         delay,
+        play_sound_x,     // 播放 X 音频
+        delay,
         play_sound_b,     // 播放 B 音频
+        axb_response_prac      // 提示用户选择
+    ],
+    timeline_variables: prac_timeline_variable, // 引用试次变量
+    randomize_order: true // 随机化试次顺序
+};
+
+
+//定义练习结束后的画面
+var prac_end = {
+    type: jsPsychHtmlKeyboardResponse,
+    choices: ['B'],
+    stimulus: `
+    <h1 style = "width:100%">
+    練習はこれで終わりです。
+    </h1>
+    <p>
+    この時点でご質問等ありましたら、Webページを閉じずに、研究員にお尋ねください。
+
+    実験の手順に関してご質問がないようでしたら、[B]キーを押すと、実験が始まります。
+    </p>
+    `
+};
+
+
+
+// 定义 axb 试次
+var axb_trial = {
+    timeline: [
+        fixation,         // 注意点：+
+        display_content,  // 显示音声内容
+        play_sound_a,     // 播放 A 音频
         delay,
         play_sound_x,     // 播放 X 音频
-        abx_response      // 提示用户选择
+        delay,
+        play_sound_b,     // 播放 B 音频
+        axb_response      // 提示用户选择
     ],
-    timeline_variables: abx_timeline_variable, // 引用试次变量
+    timeline_variables: axb_timeline_variable, // 引用试次变量
     randomize_order: true // 随机化试次顺序
 };
 
@@ -208,7 +279,7 @@ var ending = {
 };
 
 // 实验时间线
-var timeline = [preload, start_experiment, abx_trial, save_local_trial,ending];
+var timeline = [preload, start_experiment, axb_prac, prac_end,  axb_trial, save_local_trial, ending];
 
 // 运行实验
 jsPsych.run(timeline);
