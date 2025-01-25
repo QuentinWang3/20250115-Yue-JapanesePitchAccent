@@ -1,3 +1,17 @@
+//0125 changelog
+/* 
+<done>
+- 先随机化，然后划分成四个部分
+- stimuli list: 把content改为Content，增加了Sokuon_type一列，去掉了促音50%词之前的点
+- mora，content，sokuon_type在data里记录一下
+- list的数据列标题和变量调用名统一一下
+- 添加练习session
+
+
+<to do>
+*/
+
+
 
 // 设置进度条
 const jsPsych = initJsPsych({
@@ -14,7 +28,7 @@ var name_input = {
       {prompt: `
       <div style="display: flex; align-items: center;">
         <span style="white-space: nowrap; margin-right: 10px; font-size: 30px; line-height: 1.5">お名前をローマ字で入力してください：</span>
-      </div>`, placeholder: "Yamada Taro", name: 'participant_name', required: true}
+      </div>`, placeholder: "Sophia Taro", name: 'participant_name', required: true}
     ],
     on_finish: function(data) {
       // 将姓名保存到全局数据中
@@ -26,24 +40,24 @@ var name_input = {
   };
 
 // 开始页面
+// white-space:pre-wrap; 回车等于空行
 var start_experiment = {
     type: jsPsychHtmlButtonResponse,
     stimulus: `
         <h2 style="text-align: center;">日本語アクセント核弁別実験</h2>
-        <p style="text-align: left; font-size: 18px; line-height: 1.6;">
+        <p style="text-align: left; font-size: 18px; line-height: 1.6; "> 
         実験へのご参加ありがとうございます。<br>
-            この弁別実験の各課題では <strong>a -> x -> b</strong> という順序で 3つの音が流れます。<br> 音声は常に凝視点（＋）の直後に流されますので、凝視点（＋）が提示されたら、必ずそのポイントに注目してください。<br>音声の内容を見ながら<br>
-            2番目の音 (<strong>x</strong>) が以下のどちらに似ているかを判断してください：<br>
+        この弁別実験の各課題では <strong>a -> x -> b</strong> という順序で 3つの音が流れます。
+        音声は常に凝視点（＋）の直後に流されますので、凝視点（＋）が提示されたら、必ずそのポイントに注目してください。
+        音声の内容を見ながら，
+        ２番目の音 (<strong>x</strong>) が以下のどちらに似ているかを判断してください：<br>
             (a) 1番目の音<br>
             (b) 3番目の音<br>
-        </p>
-        <p style="text-align: left; font-size: 18px; line-height: 1.6;">
-            回答は <strong>a</strong> または <strong>b</strong> のキーで入力してください。<br>
-            静かな環境で実施し、可能な場合はイヤホンなどをご使用ください。<br>
-            この知覚実験はおおむね50分程度となり、途中で休憩ポイントが3回あります。<br>
-        </p>
-        <p style="text-align: center; font-size: 18px; margin-top: 20px;">
-        まず実験の手順に慣れていただくように、練習を１２問準備しました。
+        回答は <strong>[a]</strong> または <strong>[b]</strong> のキーで入力してください。
+        静かな環境で実施し、可能な場合はイヤホンなどをご使用ください。
+        この知覚実験はおおむね50分程度となり、途中で休憩ポイントが3回あります。</p>　
+        <p style="text-align: center; font-size: 18px; ">
+        まず実験の手順に慣れていただくように、練習を１０問準備しました。
         準備ができましたら、 下のボタンをクリックして練習セッションを始めてください。
         </p>
     `,
@@ -78,8 +92,10 @@ var fixation = {
 var display_content = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: function() {
-        return `<p style="text-align: center; background-color: lightgray;">音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」</p>`;
-    },
+        return `
+        <p style="white-space: nowrap; text-align: center; padding: 20px; background-color: lightgray;">
+        音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
+        </p>`},
     choices: "NO_KEYS",
     trial_duration: 500
 };
@@ -90,50 +106,137 @@ var play_sound = function(soundKey) {
         type: jsPsychAudioKeyboardResponse,
         stimulus: jsPsych.timelineVariable(soundKey),
         choices: "NO_KEYS",
-        trial_ends_after_audio: true
+        trial_ends_after_audio: true,
+        prompt: function() {
+            return `
+            <p style="white-space: nowrap; text-align: center; padding: 20px; background-color: lightgray;">
+            音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
+            </p>`},
     };
 };
 
-// 用户响应
-var axb_response = {
+//delay
+var delay = {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: function() {
+    stimulus:function() {
         return `
-        <p>2番の音声は1番の音声と似たアクセントであれば[A]キーを、3番の音声と似たアクセントであれば[B]キーを押してください。</p>
-        `;
-    },
+        <p style= "white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;">
+        音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
+        </p>`},
+    choices: 'NO_KEYS',
+    trial_duration: jsPsych.timelineVariable('delay'),
+};
+
+
+
+//定义练习结束后的画面
+var prac_end = {
+    type: jsPsychHtmlKeyboardResponse,
+    choices: ['B'],
+    stimulus: `
+    <h1 style = "width:100%">
+    練習はこれで終わりです。
+    </h1>
+    <p>
+    この時点でご質問等ありましたら、Webページを閉じずに、研究員にお尋ねください。
+
+    実験の手順に関してご質問がないようでしたら、[B]キーを押すと、実験が始まります。
+    </p>
+    `
+};
+
+//练习试次响应
+
+var axb_prac_response = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: function(){
+        return `
+        <p style="white-space: nowrap; text-align: center; padding: 20px; background-color: lightgray;">
+        音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
+        </p>
+        <p style="width: 100%"> 
+        2番の音声は1番の音声と似たアクセントであれば<span style="background-color: yellow;">[ A ]キー</span>を、
+        3番の音声と似たアクセントであれば <span style="background-color: yellow;">[ B ]キー</span>を<u>押してください</u>。
+        </p>`},
     choices: ['a', 'b'],
     data: {
-        phase: 'axb',
+        phase: 'Practice',
         content: jsPsych.timelineVariable('Content'),
+        mora: jsPsych.timelineVariable('Mora'),
+        sokuon_type: jsPsych.timelineVariable('Sokuon_type'),
+        pair_type: jsPsych.timelineVariable('Pair_type'),
         sound_a: jsPsych.timelineVariable('SoundA'),
         sound_b: jsPsych.timelineVariable('SoundB'),
         sound_x: jsPsych.timelineVariable('SoundX')
     }
 };
 
+
+// 用户响应
+var axb_response = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: function(){
+        return `
+        <p style="white-space: nowrap; text-align: center; padding: 20px; background-color: lightgray;">
+        音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
+        </p>
+        <p style="width: 100%"> 
+        2番の音声は1番の音声と似たアクセントであれば<span style="background-color: yellow;">[ A ]キー</span>を、
+        3番の音声と似たアクセントであれば <span style="background-color: yellow;">[ B ]キー</span>を<u>押してください</u>。
+        </p>`},
+    choices: ['a', 'b'],
+    data: {
+        phase: 'axb',
+        content: jsPsych.timelineVariable('Content'),
+        mora: jsPsych.timelineVariable('Mora'),
+        sokuon_type: jsPsych.timelineVariable('Sokuon_type'),
+        pair_type: jsPsych.timelineVariable('Pair_type'),
+        sound_a: jsPsych.timelineVariable('SoundA'),
+        sound_b: jsPsych.timelineVariable('SoundB'),
+        sound_x: jsPsych.timelineVariable('SoundX')
+    }
+};
+
+//定义练习试次
+
+var axb_prac = {
+    timeline: [fixation, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_prac_response],
+    timeline_variables: prac_timeline_variable,
+    randomize_order : true,
+};
+
+
+
 // 定义四部分试次
 var total_trials = axb_timeline_variable.length;
 var quarter_trials = Math.ceil(total_trials / 4);
 
+var axb_random_variable = shuffledList = [...axb_timeline_variable].sort(() => Math.random() - 0.5);
+
+
+
 var axb_trial_part_1 = {
-    timeline: [fixation, display_content, play_sound('SoundA'), play_sound('SoundX'), play_sound('SoundB'), axb_response],
-    timeline_variables: axb_timeline_variable.slice(0, quarter_trials)
+    timeline: [fixation, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
+    timeline_variables: axb_random_variable.slice(0, quarter_trials),
+    randomize_order : true,
 };
 
 var axb_trial_part_2 = {
-    timeline: [fixation, display_content, play_sound('SoundA'), play_sound('SoundX'), play_sound('SoundB'), axb_response],
-    timeline_variables: axb_timeline_variable.slice(quarter_trials, quarter_trials * 2)
+    timeline: [fixation, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
+    timeline_variables: axb_random_variable.slice(quarter_trials, quarter_trials * 2),
+    randomize_order : true,
 };
 
 var axb_trial_part_3 = {
-    timeline: [fixation, display_content, play_sound('SoundA'), play_sound('SoundX'), play_sound('SoundB'), axb_response],
-    timeline_variables: axb_timeline_variable.slice(quarter_trials * 2, quarter_trials * 3)
+    timeline: [fixation, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
+    timeline_variables: axb_random_variable.slice(quarter_trials * 2, quarter_trials * 3),
+    randomize_order : true,
 };
 
 var axb_trial_part_4 = {
-    timeline: [fixation, display_content, play_sound('SoundA'), play_sound('SoundX'), play_sound('SoundB'), axb_response],
-    timeline_variables: axb_timeline_variable.slice(quarter_trials * 3)
+    timeline: [fixation, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
+    timeline_variables: axb_random_variable.slice(quarter_trials * 3),
+    randomize_order : true,
 };
 
 // 定义休息时间1
@@ -215,6 +318,8 @@ var timeline = [
     preload,
     name_input,
     start_experiment,
+    axb_prac,
+    prac_end,
     axb_trial_part_1,
     breaktime1,
     after_break,

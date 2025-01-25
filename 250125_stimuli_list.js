@@ -7,2278 +7,2550 @@
 //Japanese Pitch Accent trial stimuli
 var axb_timeline_variable = [
   {
-    "content": ".ムッテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/50%0-1 pair_muttera1.wav",
-    "SoundB": "stimuli/50%0-1 pair_muttera7.wav",
-    "SoundX": "stimuli/50%0-1 pair_muttera1.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muttera1.wav",
+    "SoundB": "stimuli/50_0-1 pair_muttera7.wav",
+    "SoundX": "stimuli/50_0-1 pair_muttera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/50%0-1 pair_muttera7.wav",
-    "SoundB": "stimuli/50%0-1 pair_muttera1.wav",
-    "SoundX": "stimuli/50%0-1 pair_muttera2.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muttera1.wav",
+    "SoundB": "stimuli/50_0-1 pair_muttera7.wav",
+    "SoundX": "stimuli/50_0-1 pair_muttera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/50%0-1 pair_muttera7.wav",
-    "SoundB": "stimuli/50%0-1 pair_muttera1.wav",
-    "SoundX": "stimuli/50%0-1 pair_muttera3.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muttera1.wav",
+    "SoundB": "stimuli/50_0-1 pair_muttera7.wav",
+    "SoundX": "stimuli/50_0-1 pair_muttera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/50%0-1 pair_muttera1.wav",
-    "SoundB": "stimuli/50%0-1 pair_muttera7.wav",
-    "SoundX": "stimuli/50%0-1 pair_muttera4.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muttera7.wav",
+    "SoundB": "stimuli/50_0-1 pair_muttera1.wav",
+    "SoundX": "stimuli/50_0-1 pair_muttera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/50%0-1 pair_muttera7.wav",
-    "SoundB": "stimuli/50%0-1 pair_muttera1.wav",
-    "SoundX": "stimuli/50%0-1 pair_muttera5.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muttera1.wav",
+    "SoundB": "stimuli/50_0-1 pair_muttera7.wav",
+    "SoundX": "stimuli/50_0-1 pair_muttera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/50%0-1 pair_muttera1.wav",
-    "SoundB": "stimuli/50%0-1 pair_muttera7.wav",
-    "SoundX": "stimuli/50%0-1 pair_muttera6.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muttera7.wav",
+    "SoundB": "stimuli/50_0-1 pair_muttera1.wav",
+    "SoundX": "stimuli/50_0-1 pair_muttera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/50%0-1 pair_muttera1.wav",
-    "SoundB": "stimuli/50%0-1 pair_muttera7.wav",
-    "SoundX": "stimuli/50%0-1 pair_muttera7.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muttera7.wav",
+    "SoundB": "stimuli/50_0-1 pair_muttera1.wav",
+    "SoundX": "stimuli/50_0-1 pair_muttera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/50%0-3 pair_muddera1.wav",
-    "SoundB": "stimuli/50%0-3 pair_muddera7.wav",
-    "SoundX": "stimuli/50%0-3 pair_muddera1.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-3 pair_muddera7.wav",
+    "SoundB": "stimuli/50_0-3 pair_muddera1.wav",
+    "SoundX": "stimuli/50_0-3 pair_muddera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/50%0-3 pair_muddera1.wav",
-    "SoundB": "stimuli/50%0-3 pair_muddera7.wav",
-    "SoundX": "stimuli/50%0-3 pair_muddera2.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-3 pair_muddera1.wav",
+    "SoundB": "stimuli/50_0-3 pair_muddera7.wav",
+    "SoundX": "stimuli/50_0-3 pair_muddera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/50%0-3 pair_muddera1.wav",
-    "SoundB": "stimuli/50%0-3 pair_muddera7.wav",
-    "SoundX": "stimuli/50%0-3 pair_muddera3.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-3 pair_muddera7.wav",
+    "SoundB": "stimuli/50_0-3 pair_muddera1.wav",
+    "SoundX": "stimuli/50_0-3 pair_muddera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/50%0-3 pair_muddera7.wav",
-    "SoundB": "stimuli/50%0-3 pair_muddera1.wav",
-    "SoundX": "stimuli/50%0-3 pair_muddera4.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-3 pair_muddera7.wav",
+    "SoundB": "stimuli/50_0-3 pair_muddera1.wav",
+    "SoundX": "stimuli/50_0-3 pair_muddera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/50%0-3 pair_muddera1.wav",
-    "SoundB": "stimuli/50%0-3 pair_muddera7.wav",
-    "SoundX": "stimuli/50%0-3 pair_muddera5.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-3 pair_muddera7.wav",
+    "SoundB": "stimuli/50_0-3 pair_muddera1.wav",
+    "SoundX": "stimuli/50_0-3 pair_muddera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/50%0-3 pair_muddera1.wav",
-    "SoundB": "stimuli/50%0-3 pair_muddera7.wav",
-    "SoundX": "stimuli/50%0-3 pair_muddera6.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-3 pair_muddera7.wav",
+    "SoundB": "stimuli/50_0-3 pair_muddera1.wav",
+    "SoundX": "stimuli/50_0-3 pair_muddera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/50%0-3 pair_muddera7.wav",
-    "SoundB": "stimuli/50%0-3 pair_muddera1.wav",
-    "SoundX": "stimuli/50%0-3 pair_muddera7.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-3 pair_muddera1.wav",
+    "SoundB": "stimuli/50_0-3 pair_muddera7.wav",
+    "SoundX": "stimuli/50_0-3 pair_muddera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/50%0-3 pair_muttera1.wav",
-    "SoundB": "stimuli/50%0-3 pair_muttera7.wav",
-    "SoundX": "stimuli/50%0-3 pair_muttera1.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-3 pair_muttera7.wav",
+    "SoundB": "stimuli/50_0-3 pair_muttera1.wav",
+    "SoundX": "stimuli/50_0-3 pair_muttera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/50%0-3 pair_muttera1.wav",
-    "SoundB": "stimuli/50%0-3 pair_muttera7.wav",
-    "SoundX": "stimuli/50%0-3 pair_muttera2.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-3 pair_muttera1.wav",
+    "SoundB": "stimuli/50_0-3 pair_muttera7.wav",
+    "SoundX": "stimuli/50_0-3 pair_muttera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/50%0-3 pair_muttera7.wav",
-    "SoundB": "stimuli/50%0-3 pair_muttera1.wav",
-    "SoundX": "stimuli/50%0-3 pair_muttera3.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-3 pair_muttera1.wav",
+    "SoundB": "stimuli/50_0-3 pair_muttera7.wav",
+    "SoundX": "stimuli/50_0-3 pair_muttera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/50%0-3 pair_muttera7.wav",
-    "SoundB": "stimuli/50%0-3 pair_muttera1.wav",
-    "SoundX": "stimuli/50%0-3 pair_muttera4.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-3 pair_muttera1.wav",
+    "SoundB": "stimuli/50_0-3 pair_muttera7.wav",
+    "SoundX": "stimuli/50_0-3 pair_muttera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/50%0-3 pair_muttera1.wav",
-    "SoundB": "stimuli/50%0-3 pair_muttera7.wav",
-    "SoundX": "stimuli/50%0-3 pair_muttera5.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-3 pair_muttera1.wav",
+    "SoundB": "stimuli/50_0-3 pair_muttera7.wav",
+    "SoundX": "stimuli/50_0-3 pair_muttera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/50%0-3 pair_muttera1.wav",
-    "SoundB": "stimuli/50%0-3 pair_muttera7.wav",
-    "SoundX": "stimuli/50%0-3 pair_muttera6.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-3 pair_muttera1.wav",
+    "SoundB": "stimuli/50_0-3 pair_muttera7.wav",
+    "SoundX": "stimuli/50_0-3 pair_muttera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/50%0-3 pair_muttera7.wav",
-    "SoundB": "stimuli/50%0-3 pair_muttera1.wav",
-    "SoundX": "stimuli/50%0-3 pair_muttera7.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-3 pair_muttera1.wav",
+    "SoundB": "stimuli/50_0-3 pair_muttera7.wav",
+    "SoundX": "stimuli/50_0-3 pair_muttera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/50%0-1 pair_muddera7.wav",
-    "SoundB": "stimuli/50%0-1 pair_muddera1.wav",
-    "SoundX": "stimuli/50%0-1 pair_muddera1.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muddera1.wav",
+    "SoundB": "stimuli/50_0-1 pair_muddera7.wav",
+    "SoundX": "stimuli/50_0-1 pair_muddera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/50%0-1 pair_muddera1.wav",
-    "SoundB": "stimuli/50%0-1 pair_muddera7.wav",
-    "SoundX": "stimuli/50%0-1 pair_muddera2.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muddera7.wav",
+    "SoundB": "stimuli/50_0-1 pair_muddera1.wav",
+    "SoundX": "stimuli/50_0-1 pair_muddera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/50%0-1 pair_muddera7.wav",
-    "SoundB": "stimuli/50%0-1 pair_muddera1.wav",
-    "SoundX": "stimuli/50%0-1 pair_muddera3.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muddera7.wav",
+    "SoundB": "stimuli/50_0-1 pair_muddera1.wav",
+    "SoundX": "stimuli/50_0-1 pair_muddera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/50%0-1 pair_muddera7.wav",
-    "SoundB": "stimuli/50%0-1 pair_muddera1.wav",
-    "SoundX": "stimuli/50%0-1 pair_muddera4.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muddera1.wav",
+    "SoundB": "stimuli/50_0-1 pair_muddera7.wav",
+    "SoundX": "stimuli/50_0-1 pair_muddera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/50%0-1 pair_muddera1.wav",
-    "SoundB": "stimuli/50%0-1 pair_muddera7.wav",
-    "SoundX": "stimuli/50%0-1 pair_muddera5.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muddera1.wav",
+    "SoundB": "stimuli/50_0-1 pair_muddera7.wav",
+    "SoundX": "stimuli/50_0-1 pair_muddera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/50%0-1 pair_muddera1.wav",
-    "SoundB": "stimuli/50%0-1 pair_muddera7.wav",
-    "SoundX": "stimuli/50%0-1 pair_muddera6.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muddera1.wav",
+    "SoundB": "stimuli/50_0-1 pair_muddera7.wav",
+    "SoundX": "stimuli/50_0-1 pair_muddera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/50%0-1 pair_muddera1.wav",
-    "SoundB": "stimuli/50%0-1 pair_muddera7.wav",
-    "SoundX": "stimuli/50%0-1 pair_muddera7.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muddera1.wav",
+    "SoundB": "stimuli/50_0-1 pair_muddera7.wav",
+    "SoundX": "stimuli/50_0-1 pair_muddera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_muttera1.wav",
-    "SoundB": "stimuli/0-1 pair_muttera7.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/0-1 pair_muttera7.wav",
+    "SoundB": "stimuli/0-1 pair_muttera1.wav",
     "SoundX": "stimuli/0-1 pair_muttera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-1 pair_muttera1.wav",
     "SoundB": "stimuli/0-1 pair_muttera7.wav",
     "SoundX": "stimuli/0-1 pair_muttera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_muttera1.wav",
-    "SoundB": "stimuli/0-1 pair_muttera7.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/0-1 pair_muttera7.wav",
+    "SoundB": "stimuli/0-1 pair_muttera1.wav",
     "SoundX": "stimuli/0-1 pair_muttera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-1 pair_muttera7.wav",
     "SoundB": "stimuli/0-1 pair_muttera1.wav",
     "SoundX": "stimuli/0-1 pair_muttera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-1 pair_muttera7.wav",
     "SoundB": "stimuli/0-1 pair_muttera1.wav",
     "SoundX": "stimuli/0-1 pair_muttera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-1 pair_muttera7.wav",
     "SoundB": "stimuli/0-1 pair_muttera1.wav",
     "SoundX": "stimuli/0-1 pair_muttera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-1 pair_muttera7.wav",
     "SoundB": "stimuli/0-1 pair_muttera1.wav",
     "SoundX": "stimuli/0-1 pair_muttera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムッデラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-3 pair_muddera7.wav",
     "SoundB": "stimuli/0-3 pair_muddera1.wav",
     "SoundX": "stimuli/0-3 pair_muddera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムッデラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-3 pair_muddera7.wav",
     "SoundB": "stimuli/0-3 pair_muddera1.wav",
     "SoundX": "stimuli/0-3 pair_muddera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/0-3 pair_muddera7.wav",
-    "SoundB": "stimuli/0-3 pair_muddera1.wav",
+    "Content": "ムッデラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/0-3 pair_muddera1.wav",
+    "SoundB": "stimuli/0-3 pair_muddera7.wav",
     "SoundX": "stimuli/0-3 pair_muddera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/0-3 pair_muddera7.wav",
-    "SoundB": "stimuli/0-3 pair_muddera1.wav",
+    "Content": "ムッデラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/0-3 pair_muddera1.wav",
+    "SoundB": "stimuli/0-3 pair_muddera7.wav",
     "SoundX": "stimuli/0-3 pair_muddera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムッデラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-3 pair_muddera1.wav",
     "SoundB": "stimuli/0-3 pair_muddera7.wav",
     "SoundX": "stimuli/0-3 pair_muddera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムッデラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-3 pair_muddera1.wav",
     "SoundB": "stimuli/0-3 pair_muddera7.wav",
     "SoundX": "stimuli/0-3 pair_muddera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/0-3 pair_muddera7.wav",
-    "SoundB": "stimuli/0-3 pair_muddera1.wav",
+    "Content": "ムッデラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/0-3 pair_muddera1.wav",
+    "SoundB": "stimuli/0-3 pair_muddera7.wav",
     "SoundX": "stimuli/0-3 pair_muddera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-3 pair_muttera7.wav",
     "SoundB": "stimuli/0-3 pair_muttera1.wav",
     "SoundX": "stimuli/0-3 pair_muttera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/0-3 pair_muttera7.wav",
-    "SoundB": "stimuli/0-3 pair_muttera1.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/0-3 pair_muttera1.wav",
+    "SoundB": "stimuli/0-3 pair_muttera7.wav",
     "SoundX": "stimuli/0-3 pair_muttera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-3 pair_muttera1.wav",
     "SoundB": "stimuli/0-3 pair_muttera7.wav",
     "SoundX": "stimuli/0-3 pair_muttera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-3 pair_muttera7.wav",
     "SoundB": "stimuli/0-3 pair_muttera1.wav",
     "SoundX": "stimuli/0-3 pair_muttera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-3 pair_muttera1.wav",
     "SoundB": "stimuli/0-3 pair_muttera7.wav",
     "SoundX": "stimuli/0-3 pair_muttera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/0-3 pair_muttera7.wav",
-    "SoundB": "stimuli/0-3 pair_muttera1.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/0-3 pair_muttera1.wav",
+    "SoundB": "stimuli/0-3 pair_muttera7.wav",
     "SoundX": "stimuli/0-3 pair_muttera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-3 pair_muttera1.wav",
     "SoundB": "stimuli/0-3 pair_muttera7.wav",
     "SoundX": "stimuli/0-3 pair_muttera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_muddera7.wav",
-    "SoundB": "stimuli/0-1 pair_muddera1.wav",
+    "Content": "ムッデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/0-1 pair_muddera1.wav",
+    "SoundB": "stimuli/0-1 pair_muddera7.wav",
     "SoundX": "stimuli/0-1 pair_muddera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_muddera1.wav",
-    "SoundB": "stimuli/0-1 pair_muddera7.wav",
+    "Content": "ムッデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/0-1 pair_muddera7.wav",
+    "SoundB": "stimuli/0-1 pair_muddera1.wav",
     "SoundX": "stimuli/0-1 pair_muddera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_muddera1.wav",
-    "SoundB": "stimuli/0-1 pair_muddera7.wav",
+    "Content": "ムッデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/0-1 pair_muddera7.wav",
+    "SoundB": "stimuli/0-1 pair_muddera1.wav",
     "SoundX": "stimuli/0-1 pair_muddera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムッデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-1 pair_muddera1.wav",
     "SoundB": "stimuli/0-1 pair_muddera7.wav",
     "SoundX": "stimuli/0-1 pair_muddera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_muddera1.wav",
-    "SoundB": "stimuli/0-1 pair_muddera7.wav",
+    "Content": "ムッデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/0-1 pair_muddera7.wav",
+    "SoundB": "stimuli/0-1 pair_muddera1.wav",
     "SoundX": "stimuli/0-1 pair_muddera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムッデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-1 pair_muddera1.wav",
     "SoundB": "stimuli/0-1 pair_muddera7.wav",
     "SoundX": "stimuli/0-1 pair_muddera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムッデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/0-1 pair_muddera7.wav",
     "SoundB": "stimuli/0-1 pair_muddera1.wav",
     "SoundX": "stimuli/0-1 pair_muddera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムテラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_mutera7.wav",
     "SoundB": "stimuli/0-1 pair_mutera1.wav",
     "SoundX": "stimuli/0-1 pair_mutera1.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_mutera7.wav",
     "SoundB": "stimuli/0-1 pair_mutera1.wav",
     "SoundX": "stimuli/0-1 pair_mutera2.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_mutera1.wav",
-    "SoundB": "stimuli/0-1 pair_mutera7.wav",
-    "SoundX": "stimuli/0-1 pair_mutera3.wav",
-    "delay": 750,
-    "mora": 3
-  },
-  {
-    "content": "ムテラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_mutera7.wav",
     "SoundB": "stimuli/0-1 pair_mutera1.wav",
-    "SoundX": "stimuli/0-1 pair_mutera4.wav",
+    "SoundX": "stimuli/0-1 pair_mutera3.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_mutera1.wav",
+    "SoundB": "stimuli/0-1 pair_mutera7.wav",
+    "SoundX": "stimuli/0-1 pair_mutera4.wav",
+    "delay": 750,
+    "Mora": 3
+  },
+  {
+    "Content": "ムテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_mutera7.wav",
     "SoundB": "stimuli/0-1 pair_mutera1.wav",
     "SoundX": "stimuli/0-1 pair_mutera5.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_mutera1.wav",
     "SoundB": "stimuli/0-1 pair_mutera7.wav",
     "SoundX": "stimuli/0-1 pair_mutera6.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_mutera1.wav",
     "SoundB": "stimuli/0-1 pair_mutera7.wav",
     "SoundX": "stimuli/0-1 pair_mutera7.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムテラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_mutera1.wav",
     "SoundB": "stimuli/0-2 pair_mutera7.wav",
     "SoundX": "stimuli/0-2 pair_mutera1.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムテラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_mutera1.wav",
     "SoundB": "stimuli/0-2 pair_mutera7.wav",
     "SoundX": "stimuli/0-2 pair_mutera2.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_mutera7.wav",
-    "SoundB": "stimuli/0-2 pair_mutera1.wav",
+    "Content": "ムテラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_mutera1.wav",
+    "SoundB": "stimuli/0-2 pair_mutera7.wav",
     "SoundX": "stimuli/0-2 pair_mutera3.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_mutera7.wav",
-    "SoundB": "stimuli/0-2 pair_mutera1.wav",
+    "Content": "ムテラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_mutera1.wav",
+    "SoundB": "stimuli/0-2 pair_mutera7.wav",
     "SoundX": "stimuli/0-2 pair_mutera4.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_mutera7.wav",
-    "SoundB": "stimuli/0-2 pair_mutera1.wav",
+    "Content": "ムテラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_mutera1.wav",
+    "SoundB": "stimuli/0-2 pair_mutera7.wav",
     "SoundX": "stimuli/0-2 pair_mutera5.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムテラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_mutera1.wav",
     "SoundB": "stimuli/0-2 pair_mutera7.wav",
     "SoundX": "stimuli/0-2 pair_mutera6.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_mutera7.wav",
-    "SoundB": "stimuli/0-2 pair_mutera1.wav",
+    "Content": "ムテラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_mutera1.wav",
+    "SoundB": "stimuli/0-2 pair_mutera7.wav",
     "SoundX": "stimuli/0-2 pair_mutera7.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_mudera1.wav",
-    "SoundB": "stimuli/0-1 pair_mudera7.wav",
+    "Content": "ムデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_mudera7.wav",
+    "SoundB": "stimuli/0-1 pair_mudera1.wav",
     "SoundX": "stimuli/0-1 pair_mudera1.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_mudera1.wav",
     "SoundB": "stimuli/0-1 pair_mudera7.wav",
     "SoundX": "stimuli/0-1 pair_mudera2.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_mudera7.wav",
     "SoundB": "stimuli/0-1 pair_mudera1.wav",
     "SoundX": "stimuli/0-1 pair_mudera3.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_mudera7.wav",
-    "SoundB": "stimuli/0-1 pair_mudera1.wav",
+    "Content": "ムデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_mudera1.wav",
+    "SoundB": "stimuli/0-1 pair_mudera7.wav",
     "SoundX": "stimuli/0-1 pair_mudera4.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_mudera1.wav",
     "SoundB": "stimuli/0-1 pair_mudera7.wav",
     "SoundX": "stimuli/0-1 pair_mudera5.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_mudera7.wav",
     "SoundB": "stimuli/0-1 pair_mudera1.wav",
     "SoundX": "stimuli/0-1 pair_mudera6.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_mudera1.wav",
-    "SoundB": "stimuli/0-1 pair_mudera7.wav",
+    "Content": "ムデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_mudera7.wav",
+    "SoundB": "stimuli/0-1 pair_mudera1.wav",
     "SoundX": "stimuli/0-1 pair_mudera7.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_mudera1.wav",
-    "SoundB": "stimuli/0-2 pair_mudera7.wav",
-    "SoundX": "stimuli/0-2 pair_mudera1.wav",
-    "delay": 750,
-    "mora": 3
-  },
-  {
-    "content": "ムデラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムデラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_mudera7.wav",
     "SoundB": "stimuli/0-2 pair_mudera1.wav",
-    "SoundX": "stimuli/0-2 pair_mudera2.wav",
+    "SoundX": "stimuli/0-2 pair_mudera1.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムデラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_mudera1.wav",
+    "SoundB": "stimuli/0-2 pair_mudera7.wav",
+    "SoundX": "stimuli/0-2 pair_mudera2.wav",
+    "delay": 750,
+    "Mora": 3
+  },
+  {
+    "Content": "ムデラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_mudera1.wav",
     "SoundB": "stimuli/0-2 pair_mudera7.wav",
     "SoundX": "stimuli/0-2 pair_mudera3.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_mudera7.wav",
-    "SoundB": "stimuli/0-2 pair_mudera1.wav",
+    "Content": "ムデラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_mudera1.wav",
+    "SoundB": "stimuli/0-2 pair_mudera7.wav",
     "SoundX": "stimuli/0-2 pair_mudera4.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムデラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_mudera1.wav",
     "SoundB": "stimuli/0-2 pair_mudera7.wav",
     "SoundX": "stimuli/0-2 pair_mudera5.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_mudera7.wav",
-    "SoundB": "stimuli/0-2 pair_mudera1.wav",
-    "SoundX": "stimuli/0-2 pair_mudera6.wav",
-    "delay": 750,
-    "mora": 3
-  },
-  {
-    "content": "ムデラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムデラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_mudera1.wav",
     "SoundB": "stimuli/0-2 pair_mudera7.wav",
+    "SoundX": "stimuli/0-2 pair_mudera6.wav",
+    "delay": 750,
+    "Mora": 3
+  },
+  {
+    "Content": "ムデラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_mudera7.wav",
+    "SoundB": "stimuli/0-2 pair_mudera1.wav",
     "SoundX": "stimuli/0-2 pair_mudera7.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murera7.wav",
-    "SoundB": "stimuli/0-1 pair_murera1.wav",
+    "Content": "ムレラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murera1.wav",
+    "SoundB": "stimuli/0-1 pair_murera7.wav",
     "SoundX": "stimuli/0-1 pair_murera1.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムレラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_murera7.wav",
     "SoundB": "stimuli/0-1 pair_murera1.wav",
     "SoundX": "stimuli/0-1 pair_murera2.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murera1.wav",
-    "SoundB": "stimuli/0-1 pair_murera7.wav",
+    "Content": "ムレラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murera7.wav",
+    "SoundB": "stimuli/0-1 pair_murera1.wav",
     "SoundX": "stimuli/0-1 pair_murera3.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murera7.wav",
-    "SoundB": "stimuli/0-1 pair_murera1.wav",
+    "Content": "ムレラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murera1.wav",
+    "SoundB": "stimuli/0-1 pair_murera7.wav",
     "SoundX": "stimuli/0-1 pair_murera4.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murera7.wav",
-    "SoundB": "stimuli/0-1 pair_murera1.wav",
+    "Content": "ムレラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murera1.wav",
+    "SoundB": "stimuli/0-1 pair_murera7.wav",
     "SoundX": "stimuli/0-1 pair_murera5.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murera7.wav",
-    "SoundB": "stimuli/0-1 pair_murera1.wav",
+    "Content": "ムレラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murera1.wav",
+    "SoundB": "stimuli/0-1 pair_murera7.wav",
     "SoundX": "stimuli/0-1 pair_murera6.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムレラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_murera1.wav",
     "SoundB": "stimuli/0-1 pair_murera7.wav",
     "SoundX": "stimuli/0-1 pair_murera7.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムレラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_murera7.wav",
     "SoundB": "stimuli/0-2 pair_murera1.wav",
     "SoundX": "stimuli/0-2 pair_murera1.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murera1.wav",
-    "SoundB": "stimuli/0-2 pair_murera7.wav",
+    "Content": "ムレラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murera7.wav",
+    "SoundB": "stimuli/0-2 pair_murera1.wav",
     "SoundX": "stimuli/0-2 pair_murera2.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murera7.wav",
-    "SoundB": "stimuli/0-2 pair_murera1.wav",
+    "Content": "ムレラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murera1.wav",
+    "SoundB": "stimuli/0-2 pair_murera7.wav",
     "SoundX": "stimuli/0-2 pair_murera3.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murera7.wav",
-    "SoundB": "stimuli/0-2 pair_murera1.wav",
+    "Content": "ムレラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murera1.wav",
+    "SoundB": "stimuli/0-2 pair_murera7.wav",
     "SoundX": "stimuli/0-2 pair_murera4.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムレラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_murera1.wav",
     "SoundB": "stimuli/0-2 pair_murera7.wav",
     "SoundX": "stimuli/0-2 pair_murera5.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murera7.wav",
-    "SoundB": "stimuli/0-2 pair_murera1.wav",
+    "Content": "ムレラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murera1.wav",
+    "SoundB": "stimuli/0-2 pair_murera7.wav",
     "SoundX": "stimuli/0-2 pair_murera6.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムレラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_murera1.wav",
     "SoundB": "stimuli/0-2 pair_murera7.wav",
     "SoundX": "stimuli/0-2 pair_murera7.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murotera7.wav",
-    "SoundB": "stimuli/0-1 pair_murotera1.wav",
+    "Content": "ムロテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murotera1.wav",
+    "SoundB": "stimuli/0-1 pair_murotera7.wav",
     "SoundX": "stimuli/0-1 pair_murotera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murotera7.wav",
-    "SoundB": "stimuli/0-1 pair_murotera1.wav",
+    "Content": "ムロテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murotera1.wav",
+    "SoundB": "stimuli/0-1 pair_murotera7.wav",
     "SoundX": "stimuli/0-1 pair_murotera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_murotera7.wav",
     "SoundB": "stimuli/0-1 pair_murotera1.wav",
     "SoundX": "stimuli/0-1 pair_murotera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murotera1.wav",
-    "SoundB": "stimuli/0-1 pair_murotera7.wav",
+    "Content": "ムロテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murotera7.wav",
+    "SoundB": "stimuli/0-1 pair_murotera1.wav",
     "SoundX": "stimuli/0-1 pair_murotera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murotera7.wav",
-    "SoundB": "stimuli/0-1 pair_murotera1.wav",
+    "Content": "ムロテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murotera1.wav",
+    "SoundB": "stimuli/0-1 pair_murotera7.wav",
     "SoundX": "stimuli/0-1 pair_murotera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murotera7.wav",
-    "SoundB": "stimuli/0-1 pair_murotera1.wav",
+    "Content": "ムロテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murotera1.wav",
+    "SoundB": "stimuli/0-1 pair_murotera7.wav",
     "SoundX": "stimuli/0-1 pair_murotera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_murotera7.wav",
     "SoundB": "stimuli/0-1 pair_murotera1.wav",
     "SoundX": "stimuli/0-1 pair_murotera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/0-3 pair_murotera1.wav",
-    "SoundB": "stimuli/0-3 pair_murotera7.wav",
+    "Content": "ムロテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-3 pair_murotera7.wav",
+    "SoundB": "stimuli/0-3 pair_murotera1.wav",
     "SoundX": "stimuli/0-3 pair_murotera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-3 pair_murotera1.wav",
     "SoundB": "stimuli/0-3 pair_murotera7.wav",
     "SoundX": "stimuli/0-3 pair_murotera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-3 pair_murotera7.wav",
     "SoundB": "stimuli/0-3 pair_murotera1.wav",
     "SoundX": "stimuli/0-3 pair_murotera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/0-3 pair_murotera1.wav",
-    "SoundB": "stimuli/0-3 pair_murotera7.wav",
-    "SoundX": "stimuli/0-3 pair_murotera4.wav",
-    "delay": 1000,
-    "mora": 4
-  },
-  {
-    "content": "ムロテラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/0-3 pair_murotera1.wav",
-    "SoundB": "stimuli/0-3 pair_murotera7.wav",
-    "SoundX": "stimuli/0-3 pair_murotera5.wav",
-    "delay": 1000,
-    "mora": 4
-  },
-  {
-    "content": "ムロテラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-3 pair_murotera7.wav",
     "SoundB": "stimuli/0-3 pair_murotera1.wav",
-    "SoundX": "stimuli/0-3 pair_murotera6.wav",
+    "SoundX": "stimuli/0-3 pair_murotera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-3 pair_murotera7.wav",
+    "SoundB": "stimuli/0-3 pair_murotera1.wav",
+    "SoundX": "stimuli/0-3 pair_murotera5.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
+  {
+    "Content": "ムロテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-3 pair_murotera1.wav",
+    "SoundB": "stimuli/0-3 pair_murotera7.wav",
+    "SoundX": "stimuli/0-3 pair_murotera6.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
+  {
+    "Content": "ムロテラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-3 pair_murotera1.wav",
     "SoundB": "stimuli/0-3 pair_murotera7.wav",
     "SoundX": "stimuli/0-3 pair_murotera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_murodera1.wav",
     "SoundB": "stimuli/0-1 pair_murodera7.wav",
     "SoundX": "stimuli/0-1 pair_murodera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_murodera1.wav",
     "SoundB": "stimuli/0-1 pair_murodera7.wav",
     "SoundX": "stimuli/0-1 pair_murodera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_murodera7.wav",
     "SoundB": "stimuli/0-1 pair_murodera1.wav",
     "SoundX": "stimuli/0-1 pair_murodera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murodera1.wav",
-    "SoundB": "stimuli/0-1 pair_murodera7.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murodera7.wav",
+    "SoundB": "stimuli/0-1 pair_murodera1.wav",
     "SoundX": "stimuli/0-1 pair_murodera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_murodera1.wav",
     "SoundB": "stimuli/0-1 pair_murodera7.wav",
     "SoundX": "stimuli/0-1 pair_murodera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_murodera1.wav",
     "SoundB": "stimuli/0-1 pair_murodera7.wav",
     "SoundX": "stimuli/0-1 pair_murodera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murodera1.wav",
-    "SoundB": "stimuli/0-1 pair_murodera7.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murodera7.wav",
+    "SoundB": "stimuli/0-1 pair_murodera1.wav",
     "SoundX": "stimuli/0-1 pair_murodera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/0-3 pair_murodera1.wav",
-    "SoundB": "stimuli/0-3 pair_murodera7.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-3 pair_murodera7.wav",
+    "SoundB": "stimuli/0-3 pair_murodera1.wav",
     "SoundX": "stimuli/0-3 pair_murodera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-3 pair_murodera7.wav",
     "SoundB": "stimuli/0-3 pair_murodera1.wav",
     "SoundX": "stimuli/0-3 pair_murodera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/0-3 pair_murodera1.wav",
-    "SoundB": "stimuli/0-3 pair_murodera7.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-3 pair_murodera7.wav",
+    "SoundB": "stimuli/0-3 pair_murodera1.wav",
     "SoundX": "stimuli/0-3 pair_murodera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-3 pair_murodera1.wav",
     "SoundB": "stimuli/0-3 pair_murodera7.wav",
     "SoundX": "stimuli/0-3 pair_murodera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-3 pair_murodera7.wav",
     "SoundB": "stimuli/0-3 pair_murodera1.wav",
     "SoundX": "stimuli/0-3 pair_murodera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/0-3 pair_murodera7.wav",
-    "SoundB": "stimuli/0-3 pair_murodera1.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-3 pair_murodera1.wav",
+    "SoundB": "stimuli/0-3 pair_murodera7.wav",
     "SoundX": "stimuli/0-3 pair_murodera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-3 pair_murodera7.wav",
     "SoundB": "stimuli/0-3 pair_murodera1.wav",
     "SoundX": "stimuli/0-3 pair_murodera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murorera1.wav",
-    "SoundB": "stimuli/0-1 pair_murorera7.wav",
+    "Content": "ムロレラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murorera7.wav",
+    "SoundB": "stimuli/0-1 pair_murorera1.wav",
     "SoundX": "stimuli/0-1 pair_murorera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_murorera1.wav",
     "SoundB": "stimuli/0-1 pair_murorera7.wav",
     "SoundX": "stimuli/0-1 pair_murorera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murorera7.wav",
-    "SoundB": "stimuli/0-1 pair_murorera1.wav",
-    "SoundX": "stimuli/0-1 pair_murorera3.wav",
-    "delay": 1000,
-    "mora": 4
-  },
-  {
-    "content": "ムロレラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_murorera1.wav",
     "SoundB": "stimuli/0-1 pair_murorera7.wav",
-    "SoundX": "stimuli/0-1 pair_murorera4.wav",
+    "SoundX": "stimuli/0-1 pair_murorera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murorera7.wav",
+    "SoundB": "stimuli/0-1 pair_murorera1.wav",
+    "SoundX": "stimuli/0-1 pair_murorera4.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
+  {
+    "Content": "ムロレラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_murorera7.wav",
     "SoundB": "stimuli/0-1 pair_murorera1.wav",
     "SoundX": "stimuli/0-1 pair_murorera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-1 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-1 pair_murorera1.wav",
     "SoundB": "stimuli/0-1 pair_murorera7.wav",
     "SoundX": "stimuli/0-1 pair_murorera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-1 pair",
-    "SoundA": "stimuli/0-1 pair_murorera7.wav",
-    "SoundB": "stimuli/0-1 pair_murorera1.wav",
+    "Content": "ムロレラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murorera1.wav",
+    "SoundB": "stimuli/0-1 pair_murorera7.wav",
     "SoundX": "stimuli/0-1 pair_murorera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/0-3 pair_murorera7.wav",
-    "SoundB": "stimuli/0-3 pair_murorera1.wav",
+    "Content": "ムロレラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-3 pair_murorera1.wav",
+    "SoundB": "stimuli/0-3 pair_murorera7.wav",
     "SoundX": "stimuli/0-3 pair_murorera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-3 pair_murorera1.wav",
     "SoundB": "stimuli/0-3 pair_murorera7.wav",
     "SoundX": "stimuli/0-3 pair_murorera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-3 pair_murorera1.wav",
     "SoundB": "stimuli/0-3 pair_murorera7.wav",
     "SoundX": "stimuli/0-3 pair_murorera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-3 pair_murorera1.wav",
     "SoundB": "stimuli/0-3 pair_murorera7.wav",
     "SoundX": "stimuli/0-3 pair_murorera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/0-3 pair_murorera1.wav",
-    "SoundB": "stimuli/0-3 pair_murorera7.wav",
+    "Content": "ムロレラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-3 pair_murorera7.wav",
+    "SoundB": "stimuli/0-3 pair_murorera1.wav",
     "SoundX": "stimuli/0-3 pair_murorera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-3 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-3 pair_murorera1.wav",
     "SoundB": "stimuli/0-3 pair_murorera7.wav",
     "SoundX": "stimuli/0-3 pair_murorera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-3 pair",
-    "SoundA": "stimuli/0-3 pair_murorera1.wav",
-    "SoundB": "stimuli/0-3 pair_murorera7.wav",
+    "Content": "ムロレラ",
+    "Pair_type": "0-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-3 pair_murorera7.wav",
+    "SoundB": "stimuli/0-3 pair_murorera1.wav",
     "SoundX": "stimuli/0-3 pair_murorera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murotera7.wav",
-    "SoundB": "stimuli/0-2 pair_murotera1.wav",
-    "SoundX": "stimuli/0-2 pair_murotera1.wav",
-    "delay": 1000,
-    "mora": 4
-  },
-  {
-    "content": "ムロテラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_murotera1.wav",
     "SoundB": "stimuli/0-2 pair_murotera7.wav",
-    "SoundX": "stimuli/0-2 pair_murotera2.wav",
+    "SoundX": "stimuli/0-2 pair_murotera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murotera7.wav",
+    "SoundB": "stimuli/0-2 pair_murotera1.wav",
+    "SoundX": "stimuli/0-2 pair_murotera2.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
+  {
+    "Content": "ムロテラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_murotera7.wav",
     "SoundB": "stimuli/0-2 pair_murotera1.wav",
     "SoundX": "stimuli/0-2 pair_murotera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murotera1.wav",
-    "SoundB": "stimuli/0-2 pair_murotera7.wav",
+    "Content": "ムロテラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murotera7.wav",
+    "SoundB": "stimuli/0-2 pair_murotera1.wav",
     "SoundX": "stimuli/0-2 pair_murotera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murotera1.wav",
-    "SoundB": "stimuli/0-2 pair_murotera7.wav",
+    "Content": "ムロテラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murotera7.wav",
+    "SoundB": "stimuli/0-2 pair_murotera1.wav",
     "SoundX": "stimuli/0-2 pair_murotera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murotera7.wav",
-    "SoundB": "stimuli/0-2 pair_murotera1.wav",
+    "Content": "ムロテラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murotera1.wav",
+    "SoundB": "stimuli/0-2 pair_murotera7.wav",
     "SoundX": "stimuli/0-2 pair_murotera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murotera7.wav",
-    "SoundB": "stimuli/0-2 pair_murotera1.wav",
+    "Content": "ムロテラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murotera1.wav",
+    "SoundB": "stimuli/0-2 pair_murotera7.wav",
     "SoundX": "stimuli/0-2 pair_murotera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murodera7.wav",
-    "SoundB": "stimuli/0-2 pair_murodera1.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murodera1.wav",
+    "SoundB": "stimuli/0-2 pair_murodera7.wav",
     "SoundX": "stimuli/0-2 pair_murodera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murodera7.wav",
-    "SoundB": "stimuli/0-2 pair_murodera1.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murodera1.wav",
+    "SoundB": "stimuli/0-2 pair_murodera7.wav",
     "SoundX": "stimuli/0-2 pair_murodera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_murodera1.wav",
     "SoundB": "stimuli/0-2 pair_murodera7.wav",
     "SoundX": "stimuli/0-2 pair_murodera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murodera1.wav",
-    "SoundB": "stimuli/0-2 pair_murodera7.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murodera7.wav",
+    "SoundB": "stimuli/0-2 pair_murodera1.wav",
     "SoundX": "stimuli/0-2 pair_murodera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murodera1.wav",
-    "SoundB": "stimuli/0-2 pair_murodera7.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murodera7.wav",
+    "SoundB": "stimuli/0-2 pair_murodera1.wav",
     "SoundX": "stimuli/0-2 pair_murodera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_murodera7.wav",
     "SoundB": "stimuli/0-2 pair_murodera1.wav",
     "SoundX": "stimuli/0-2 pair_murodera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murodera1.wav",
-    "SoundB": "stimuli/0-2 pair_murodera7.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murodera7.wav",
+    "SoundB": "stimuli/0-2 pair_murodera1.wav",
     "SoundX": "stimuli/0-2 pair_murodera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_murorera1.wav",
     "SoundB": "stimuli/0-2 pair_murorera7.wav",
     "SoundX": "stimuli/0-2 pair_murorera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-2 pair",
-    "SoundA": "stimuli/0-2 pair_murorera7.wav",
-    "SoundB": "stimuli/0-2 pair_murorera1.wav",
+    "Content": "ムロレラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-2 pair_murorera1.wav",
+    "SoundB": "stimuli/0-2 pair_murorera7.wav",
     "SoundX": "stimuli/0-2 pair_murorera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_murorera7.wav",
     "SoundB": "stimuli/0-2 pair_murorera1.wav",
     "SoundX": "stimuli/0-2 pair_murorera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_murorera7.wav",
     "SoundB": "stimuli/0-2 pair_murorera1.wav",
     "SoundX": "stimuli/0-2 pair_murorera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_murorera7.wav",
     "SoundB": "stimuli/0-2 pair_murorera1.wav",
     "SoundX": "stimuli/0-2 pair_murorera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_murorera1.wav",
     "SoundB": "stimuli/0-2 pair_murorera7.wav",
     "SoundX": "stimuli/0-2 pair_murorera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "0-2 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "0-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/0-2 pair_murorera7.wav",
     "SoundB": "stimuli/0-2 pair_murorera1.wav",
     "SoundX": "stimuli/0-2 pair_murorera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/50%1-3 pair_muttera1.wav",
-    "SoundB": "stimuli/50%1-3 pair_muttera7.wav",
-    "SoundX": "stimuli/50%1-3 pair_muttera1.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_1-3 pair_muttera1.wav",
+    "SoundB": "stimuli/50_1-3 pair_muttera7.wav",
+    "SoundX": "stimuli/50_1-3 pair_muttera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/50%1-3 pair_muttera7.wav",
-    "SoundB": "stimuli/50%1-3 pair_muttera1.wav",
-    "SoundX": "stimuli/50%1-3 pair_muttera2.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_1-3 pair_muttera1.wav",
+    "SoundB": "stimuli/50_1-3 pair_muttera7.wav",
+    "SoundX": "stimuli/50_1-3 pair_muttera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/50%1-3 pair_muttera1.wav",
-    "SoundB": "stimuli/50%1-3 pair_muttera7.wav",
-    "SoundX": "stimuli/50%1-3 pair_muttera3.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_1-3 pair_muttera1.wav",
+    "SoundB": "stimuli/50_1-3 pair_muttera7.wav",
+    "SoundX": "stimuli/50_1-3 pair_muttera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/50%1-3 pair_muttera7.wav",
-    "SoundB": "stimuli/50%1-3 pair_muttera1.wav",
-    "SoundX": "stimuli/50%1-3 pair_muttera4.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_1-3 pair_muttera7.wav",
+    "SoundB": "stimuli/50_1-3 pair_muttera1.wav",
+    "SoundX": "stimuli/50_1-3 pair_muttera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/50%1-3 pair_muttera1.wav",
-    "SoundB": "stimuli/50%1-3 pair_muttera7.wav",
-    "SoundX": "stimuli/50%1-3 pair_muttera5.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_1-3 pair_muttera7.wav",
+    "SoundB": "stimuli/50_1-3 pair_muttera1.wav",
+    "SoundX": "stimuli/50_1-3 pair_muttera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/50%1-3 pair_muttera7.wav",
-    "SoundB": "stimuli/50%1-3 pair_muttera1.wav",
-    "SoundX": "stimuli/50%1-3 pair_muttera6.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_1-3 pair_muttera7.wav",
+    "SoundB": "stimuli/50_1-3 pair_muttera1.wav",
+    "SoundX": "stimuli/50_1-3 pair_muttera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッテラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/50%1-3 pair_muttera7.wav",
-    "SoundB": "stimuli/50%1-3 pair_muttera1.wav",
-    "SoundX": "stimuli/50%1-3 pair_muttera7.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_1-3 pair_muttera7.wav",
+    "SoundB": "stimuli/50_1-3 pair_muttera1.wav",
+    "SoundX": "stimuli/50_1-3 pair_muttera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/50%1-3 pair_muddera1.wav",
-    "SoundB": "stimuli/50%1-3 pair_muddera7.wav",
-    "SoundX": "stimuli/50%1-3 pair_muddera1.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_1-3 pair_muddera1.wav",
+    "SoundB": "stimuli/50_1-3 pair_muddera7.wav",
+    "SoundX": "stimuli/50_1-3 pair_muddera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/50%1-3 pair_muddera1.wav",
-    "SoundB": "stimuli/50%1-3 pair_muddera7.wav",
-    "SoundX": "stimuli/50%1-3 pair_muddera2.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_1-3 pair_muddera1.wav",
+    "SoundB": "stimuli/50_1-3 pair_muddera7.wav",
+    "SoundX": "stimuli/50_1-3 pair_muddera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/50%1-3 pair_muddera1.wav",
-    "SoundB": "stimuli/50%1-3 pair_muddera7.wav",
-    "SoundX": "stimuli/50%1-3 pair_muddera3.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_1-3 pair_muddera1.wav",
+    "SoundB": "stimuli/50_1-3 pair_muddera7.wav",
+    "SoundX": "stimuli/50_1-3 pair_muddera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/50%1-3 pair_muddera1.wav",
-    "SoundB": "stimuli/50%1-3 pair_muddera7.wav",
-    "SoundX": "stimuli/50%1-3 pair_muddera4.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_1-3 pair_muddera1.wav",
+    "SoundB": "stimuli/50_1-3 pair_muddera7.wav",
+    "SoundX": "stimuli/50_1-3 pair_muddera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/50%1-3 pair_muddera1.wav",
-    "SoundB": "stimuli/50%1-3 pair_muddera7.wav",
-    "SoundX": "stimuli/50%1-3 pair_muddera5.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_1-3 pair_muddera7.wav",
+    "SoundB": "stimuli/50_1-3 pair_muddera1.wav",
+    "SoundX": "stimuli/50_1-3 pair_muddera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/50%1-3 pair_muddera7.wav",
-    "SoundB": "stimuli/50%1-3 pair_muddera1.wav",
-    "SoundX": "stimuli/50%1-3 pair_muddera6.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_1-3 pair_muddera1.wav",
+    "SoundB": "stimuli/50_1-3 pair_muddera7.wav",
+    "SoundX": "stimuli/50_1-3 pair_muddera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": ".ムッデラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/50%1-3 pair_muddera7.wav",
-    "SoundB": "stimuli/50%1-3 pair_muddera1.wav",
-    "SoundX": "stimuli/50%1-3 pair_muddera7.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_1-3 pair_muddera7.wav",
+    "SoundB": "stimuli/50_1-3 pair_muddera1.wav",
+    "SoundX": "stimuli/50_1-3 pair_muddera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "1-3 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/1-3 pair_muttera7.wav",
     "SoundB": "stimuli/1-3 pair_muttera1.wav",
     "SoundX": "stimuli/1-3 pair_muttera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "1-3 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/1-3 pair_muttera7.wav",
     "SoundB": "stimuli/1-3 pair_muttera1.wav",
     "SoundX": "stimuli/1-3 pair_muttera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/1-3 pair_muttera7.wav",
-    "SoundB": "stimuli/1-3 pair_muttera1.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/1-3 pair_muttera1.wav",
+    "SoundB": "stimuli/1-3 pair_muttera7.wav",
     "SoundX": "stimuli/1-3 pair_muttera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "1-3 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/1-3 pair_muttera7.wav",
     "SoundB": "stimuli/1-3 pair_muttera1.wav",
     "SoundX": "stimuli/1-3 pair_muttera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/1-3 pair_muttera1.wav",
-    "SoundB": "stimuli/1-3 pair_muttera7.wav",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/1-3 pair_muttera7.wav",
+    "SoundB": "stimuli/1-3 pair_muttera1.wav",
     "SoundX": "stimuli/1-3 pair_muttera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "1-3 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/1-3 pair_muttera1.wav",
     "SoundB": "stimuli/1-3 pair_muttera7.wav",
     "SoundX": "stimuli/1-3 pair_muttera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッテラ",
-    "pair_type": "1-3 pair",
+    "Content": "ムッテラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/1-3 pair_muttera1.wav",
     "SoundB": "stimuli/1-3 pair_muttera7.wav",
     "SoundX": "stimuli/1-3 pair_muttera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "1-3 pair",
+    "Content": "ムッデラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/1-3 pair_muddera1.wav",
     "SoundB": "stimuli/1-3 pair_muddera7.wav",
     "SoundX": "stimuli/1-3 pair_muddera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "1-3 pair",
+    "Content": "ムッデラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/1-3 pair_muddera1.wav",
     "SoundB": "stimuli/1-3 pair_muddera7.wav",
     "SoundX": "stimuli/1-3 pair_muddera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/1-3 pair_muddera7.wav",
-    "SoundB": "stimuli/1-3 pair_muddera1.wav",
-    "SoundX": "stimuli/1-3 pair_muddera3.wav",
-    "delay": 1000,
-    "mora": 4
-  },
-  {
-    "content": "ムッデラ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/1-3 pair_muddera7.wav",
-    "SoundB": "stimuli/1-3 pair_muddera1.wav",
-    "SoundX": "stimuli/1-3 pair_muddera4.wav",
-    "delay": 1000,
-    "mora": 4
-  },
-  {
-    "content": "ムッデラ",
-    "pair_type": "1-3 pair",
+    "Content": "ムッデラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/1-3 pair_muddera1.wav",
     "SoundB": "stimuli/1-3 pair_muddera7.wav",
-    "SoundX": "stimuli/1-3 pair_muddera5.wav",
+    "SoundX": "stimuli/1-3 pair_muddera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "1-3 pair",
+    "Content": "ムッデラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/1-3 pair_muddera1.wav",
+    "SoundB": "stimuli/1-3 pair_muddera7.wav",
+    "SoundX": "stimuli/1-3 pair_muddera4.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
+  {
+    "Content": "ムッデラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "100_Sokuon",
+    "SoundA": "stimuli/1-3 pair_muddera7.wav",
+    "SoundB": "stimuli/1-3 pair_muddera1.wav",
+    "SoundX": "stimuli/1-3 pair_muddera5.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
+  {
+    "Content": "ムッデラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/1-3 pair_muddera1.wav",
     "SoundB": "stimuli/1-3 pair_muddera7.wav",
     "SoundX": "stimuli/1-3 pair_muddera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムッデラ",
-    "pair_type": "1-3 pair",
+    "Content": "ムッデラ",
+    "Pair_type": "1-3 pair",
+    "Sokuon_type": "100_Sokuon",
     "SoundA": "stimuli/1-3 pair_muddera7.wav",
     "SoundB": "stimuli/1-3 pair_muddera1.wav",
     "SoundX": "stimuli/1-3 pair_muddera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムテラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムテラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_mutera7.wav",
     "SoundB": "stimuli/1-2 pair_mutera1.wav",
     "SoundX": "stimuli/1-2 pair_mutera1.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_mutera7.wav",
-    "SoundB": "stimuli/1-2 pair_mutera1.wav",
+    "Content": "ムテラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_mutera1.wav",
+    "SoundB": "stimuli/1-2 pair_mutera7.wav",
     "SoundX": "stimuli/1-2 pair_mutera2.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムテラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_mutera1.wav",
     "SoundB": "stimuli/1-2 pair_mutera7.wav",
     "SoundX": "stimuli/1-2 pair_mutera3.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_mutera7.wav",
-    "SoundB": "stimuli/1-2 pair_mutera1.wav",
-    "SoundX": "stimuli/1-2 pair_mutera4.wav",
-    "delay": 750,
-    "mora": 3
-  },
-  {
-    "content": "ムテラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムテラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_mutera1.wav",
     "SoundB": "stimuli/1-2 pair_mutera7.wav",
-    "SoundX": "stimuli/1-2 pair_mutera5.wav",
+    "SoundX": "stimuli/1-2 pair_mutera4.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムテラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_mutera7.wav",
+    "SoundB": "stimuli/1-2 pair_mutera1.wav",
+    "SoundX": "stimuli/1-2 pair_mutera5.wav",
+    "delay": 750,
+    "Mora": 3
+  },
+  {
+    "Content": "ムテラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_mutera7.wav",
     "SoundB": "stimuli/1-2 pair_mutera1.wav",
     "SoundX": "stimuli/1-2 pair_mutera6.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムテラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムテラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_mutera7.wav",
     "SoundB": "stimuli/1-2 pair_mutera1.wav",
     "SoundX": "stimuli/1-2 pair_mutera7.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_mudera7.wav",
     "SoundB": "stimuli/1-2 pair_mudera1.wav",
     "SoundX": "stimuli/1-2 pair_mudera1.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_mudera1.wav",
-    "SoundB": "stimuli/1-2 pair_mudera7.wav",
+    "Content": "ムデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_mudera7.wav",
+    "SoundB": "stimuli/1-2 pair_mudera1.wav",
     "SoundX": "stimuli/1-2 pair_mudera2.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_mudera1.wav",
-    "SoundB": "stimuli/1-2 pair_mudera7.wav",
+    "Content": "ムデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_mudera7.wav",
+    "SoundB": "stimuli/1-2 pair_mudera1.wav",
     "SoundX": "stimuli/1-2 pair_mudera3.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_mudera1.wav",
     "SoundB": "stimuli/1-2 pair_mudera7.wav",
     "SoundX": "stimuli/1-2 pair_mudera4.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_mudera7.wav",
     "SoundB": "stimuli/1-2 pair_mudera1.wav",
     "SoundX": "stimuli/1-2 pair_mudera5.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_mudera7.wav",
-    "SoundB": "stimuli/1-2 pair_mudera1.wav",
+    "Content": "ムデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_mudera1.wav",
+    "SoundB": "stimuli/1-2 pair_mudera7.wav",
     "SoundX": "stimuli/1-2 pair_mudera6.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムデラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_mudera7.wav",
     "SoundB": "stimuli/1-2 pair_mudera1.wav",
     "SoundX": "stimuli/1-2 pair_mudera7.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_murera7.wav",
-    "SoundB": "stimuli/1-2 pair_murera1.wav",
+    "Content": "ムレラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_murera1.wav",
+    "SoundB": "stimuli/1-2 pair_murera7.wav",
     "SoundX": "stimuli/1-2 pair_murera1.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムレラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murera7.wav",
     "SoundB": "stimuli/1-2 pair_murera1.wav",
     "SoundX": "stimuli/1-2 pair_murera2.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_murera7.wav",
-    "SoundB": "stimuli/1-2 pair_murera1.wav",
-    "SoundX": "stimuli/1-2 pair_murera3.wav",
-    "delay": 750,
-    "mora": 3
-  },
-  {
-    "content": "ムレラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムレラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murera1.wav",
     "SoundB": "stimuli/1-2 pair_murera7.wav",
-    "SoundX": "stimuli/1-2 pair_murera4.wav",
+    "SoundX": "stimuli/1-2 pair_murera3.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムレラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_murera7.wav",
+    "SoundB": "stimuli/1-2 pair_murera1.wav",
+    "SoundX": "stimuli/1-2 pair_murera4.wav",
+    "delay": 750,
+    "Mora": 3
+  },
+  {
+    "Content": "ムレラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murera1.wav",
     "SoundB": "stimuli/1-2 pair_murera7.wav",
     "SoundX": "stimuli/1-2 pair_murera5.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_murera7.wav",
-    "SoundB": "stimuli/1-2 pair_murera1.wav",
+    "Content": "ムレラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_murera1.wav",
+    "SoundB": "stimuli/1-2 pair_murera7.wav",
     "SoundX": "stimuli/1-2 pair_murera6.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムレラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムレラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murera1.wav",
     "SoundB": "stimuli/1-2 pair_murera7.wav",
     "SoundX": "stimuli/1-2 pair_murera7.wav",
     "delay": 750,
-    "mora": 3
+    "Mora": 3
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_murotera1.wav",
-    "SoundB": "stimuli/1-2 pair_murotera7.wav",
-    "SoundX": "stimuli/1-2 pair_murotera1.wav",
-    "delay": 1000,
-    "mora": 4
-  },
-  {
-    "content": "ムロテラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_murotera1.wav",
-    "SoundB": "stimuli/1-2 pair_murotera7.wav",
-    "SoundX": "stimuli/1-2 pair_murotera2.wav",
-    "delay": 1000,
-    "mora": 4
-  },
-  {
-    "content": "ムロテラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murotera7.wav",
     "SoundB": "stimuli/1-2 pair_murotera1.wav",
-    "SoundX": "stimuli/1-2 pair_murotera3.wav",
+    "SoundX": "stimuli/1-2 pair_murotera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_murotera7.wav",
+    "SoundB": "stimuli/1-2 pair_murotera1.wav",
+    "SoundX": "stimuli/1-2 pair_murotera2.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
+  {
+    "Content": "ムロテラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_murotera1.wav",
+    "SoundB": "stimuli/1-2 pair_murotera7.wav",
+    "SoundX": "stimuli/1-2 pair_murotera3.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
+  {
+    "Content": "ムロテラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murotera7.wav",
     "SoundB": "stimuli/1-2 pair_murotera1.wav",
     "SoundX": "stimuli/1-2 pair_murotera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murotera1.wav",
     "SoundB": "stimuli/1-2 pair_murotera7.wav",
     "SoundX": "stimuli/1-2 pair_murotera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_murotera7.wav",
-    "SoundB": "stimuli/1-2 pair_murotera1.wav",
+    "Content": "ムロテラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_murotera1.wav",
+    "SoundB": "stimuli/1-2 pair_murotera7.wav",
     "SoundX": "stimuli/1-2 pair_murotera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_murotera7.wav",
-    "SoundB": "stimuli/1-2 pair_murotera1.wav",
+    "Content": "ムロテラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_murotera1.wav",
+    "SoundB": "stimuli/1-2 pair_murotera7.wav",
     "SoundX": "stimuli/1-2 pair_murotera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murotera1.wav",
     "SoundB": "stimuli/2-3 pair_murotera7.wav",
     "SoundX": "stimuli/2-3 pair_murotera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "2-3 pair",
-    "SoundA": "stimuli/2-3 pair_murotera7.wav",
-    "SoundB": "stimuli/2-3 pair_murotera1.wav",
-    "SoundX": "stimuli/2-3 pair_murotera2.wav",
-    "delay": 1000,
-    "mora": 4
-  },
-  {
-    "content": "ムロテラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murotera1.wav",
     "SoundB": "stimuli/2-3 pair_murotera7.wav",
-    "SoundX": "stimuli/2-3 pair_murotera3.wav",
+    "SoundX": "stimuli/2-3 pair_murotera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murotera7.wav",
     "SoundB": "stimuli/2-3 pair_murotera1.wav",
-    "SoundX": "stimuli/2-3 pair_murotera4.wav",
+    "SoundX": "stimuli/2-3 pair_murotera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/2-3 pair_murotera1.wav",
+    "SoundB": "stimuli/2-3 pair_murotera7.wav",
+    "SoundX": "stimuli/2-3 pair_murotera4.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
+  {
+    "Content": "ムロテラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murotera1.wav",
     "SoundB": "stimuli/2-3 pair_murotera7.wav",
     "SoundX": "stimuli/2-3 pair_murotera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murotera7.wav",
     "SoundB": "stimuli/2-3 pair_murotera1.wav",
     "SoundX": "stimuli/2-3 pair_murotera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロテラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロテラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murotera7.wav",
     "SoundB": "stimuli/2-3 pair_murotera1.wav",
     "SoundX": "stimuli/2-3 pair_murotera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murodera1.wav",
     "SoundB": "stimuli/1-2 pair_murodera7.wav",
     "SoundX": "stimuli/1-2 pair_murodera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murodera7.wav",
     "SoundB": "stimuli/1-2 pair_murodera1.wav",
     "SoundX": "stimuli/1-2 pair_murodera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murodera7.wav",
     "SoundB": "stimuli/1-2 pair_murodera1.wav",
     "SoundX": "stimuli/1-2 pair_murodera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_murodera7.wav",
-    "SoundB": "stimuli/1-2 pair_murodera1.wav",
-    "SoundX": "stimuli/1-2 pair_murodera4.wav",
-    "delay": 1000,
-    "mora": 4
-  },
-  {
-    "content": "ムロデラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murodera1.wav",
     "SoundB": "stimuli/1-2 pair_murodera7.wav",
-    "SoundX": "stimuli/1-2 pair_murodera5.wav",
+    "SoundX": "stimuli/1-2 pair_murodera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_murodera7.wav",
+    "SoundB": "stimuli/1-2 pair_murodera1.wav",
+    "SoundX": "stimuli/1-2 pair_murodera5.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
+  {
+    "Content": "ムロデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murodera7.wav",
     "SoundB": "stimuli/1-2 pair_murodera1.wav",
     "SoundX": "stimuli/1-2 pair_murodera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_murodera1.wav",
-    "SoundB": "stimuli/1-2 pair_murodera7.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_murodera7.wav",
+    "SoundB": "stimuli/1-2 pair_murodera1.wav",
     "SoundX": "stimuli/1-2 pair_murodera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "2-3 pair",
-    "SoundA": "stimuli/2-3 pair_murodera1.wav",
-    "SoundB": "stimuli/2-3 pair_murodera7.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/2-3 pair_murodera7.wav",
+    "SoundB": "stimuli/2-3 pair_murodera1.wav",
     "SoundX": "stimuli/2-3 pair_murodera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murodera1.wav",
     "SoundB": "stimuli/2-3 pair_murodera7.wav",
     "SoundX": "stimuli/2-3 pair_murodera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murodera7.wav",
     "SoundB": "stimuli/2-3 pair_murodera1.wav",
     "SoundX": "stimuli/2-3 pair_murodera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murodera7.wav",
     "SoundB": "stimuli/2-3 pair_murodera1.wav",
     "SoundX": "stimuli/2-3 pair_murodera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murodera1.wav",
     "SoundB": "stimuli/2-3 pair_murodera7.wav",
     "SoundX": "stimuli/2-3 pair_murodera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murodera1.wav",
     "SoundB": "stimuli/2-3 pair_murodera7.wav",
     "SoundX": "stimuli/2-3 pair_murodera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロデラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロデラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murodera7.wav",
     "SoundB": "stimuli/2-3 pair_murodera1.wav",
     "SoundX": "stimuli/2-3 pair_murodera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_murorera7.wav",
-    "SoundB": "stimuli/1-2 pair_murorera1.wav",
+    "Content": "ムロレラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_murorera1.wav",
+    "SoundB": "stimuli/1-2 pair_murorera7.wav",
     "SoundX": "stimuli/1-2 pair_murorera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murorera7.wav",
     "SoundB": "stimuli/1-2 pair_murorera1.wav",
     "SoundX": "stimuli/1-2 pair_murorera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murorera7.wav",
     "SoundB": "stimuli/1-2 pair_murorera1.wav",
     "SoundX": "stimuli/1-2 pair_murorera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_murorera1.wav",
-    "SoundB": "stimuli/1-2 pair_murorera7.wav",
+    "Content": "ムロレラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_murorera7.wav",
+    "SoundB": "stimuli/1-2 pair_murorera1.wav",
     "SoundX": "stimuli/1-2 pair_murorera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "1-2 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/1-2 pair_murorera1.wav",
     "SoundB": "stimuli/1-2 pair_murorera7.wav",
     "SoundX": "stimuli/1-2 pair_murorera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_murorera7.wav",
-    "SoundB": "stimuli/1-2 pair_murorera1.wav",
+    "Content": "ムロレラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_murorera1.wav",
+    "SoundB": "stimuli/1-2 pair_murorera7.wav",
     "SoundX": "stimuli/1-2 pair_murorera6.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "1-2 pair",
-    "SoundA": "stimuli/1-2 pair_murorera7.wav",
-    "SoundB": "stimuli/1-2 pair_murorera1.wav",
+    "Content": "ムロレラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_murorera1.wav",
+    "SoundB": "stimuli/1-2 pair_murorera7.wav",
     "SoundX": "stimuli/1-2 pair_murorera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "2-3 pair",
-    "SoundA": "stimuli/2-3 pair_murorera7.wav",
-    "SoundB": "stimuli/2-3 pair_murorera1.wav",
+    "Content": "ムロレラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/2-3 pair_murorera1.wav",
+    "SoundB": "stimuli/2-3 pair_murorera7.wav",
     "SoundX": "stimuli/2-3 pair_murorera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "2-3 pair",
-    "SoundA": "stimuli/2-3 pair_murorera7.wav",
-    "SoundB": "stimuli/2-3 pair_murorera1.wav",
+    "Content": "ムロレラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/2-3 pair_murorera1.wav",
+    "SoundB": "stimuli/2-3 pair_murorera7.wav",
     "SoundX": "stimuli/2-3 pair_murorera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "2-3 pair",
-    "SoundA": "stimuli/2-3 pair_murorera7.wav",
-    "SoundB": "stimuli/2-3 pair_murorera1.wav",
+    "Content": "ムロレラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/2-3 pair_murorera1.wav",
+    "SoundB": "stimuli/2-3 pair_murorera7.wav",
     "SoundX": "stimuli/2-3 pair_murorera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murorera7.wav",
     "SoundB": "stimuli/2-3 pair_murorera1.wav",
     "SoundX": "stimuli/2-3 pair_murorera4.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "2-3 pair",
-    "SoundA": "stimuli/2-3 pair_murorera7.wav",
-    "SoundB": "stimuli/2-3 pair_murorera1.wav",
-    "SoundX": "stimuli/2-3 pair_murorera5.wav",
-    "delay": 1000,
-    "mora": 4
-  },
-  {
-    "content": "ムロレラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murorera1.wav",
     "SoundB": "stimuli/2-3 pair_murorera7.wav",
-    "SoundX": "stimuli/2-3 pair_murorera6.wav",
+    "SoundX": "stimuli/2-3 pair_murorera5.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "content": "ムロレラ",
-    "pair_type": "2-3 pair",
+    "Content": "ムロレラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/2-3 pair_murorera7.wav",
+    "SoundB": "stimuli/2-3 pair_murorera1.wav",
+    "SoundX": "stimuli/2-3 pair_murorera6.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
+  {
+    "Content": "ムロレラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
     "SoundA": "stimuli/2-3 pair_murorera1.wav",
     "SoundB": "stimuli/2-3 pair_murorera7.wav",
     "SoundX": "stimuli/2-3 pair_murorera7.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   }
  ];
 //////////////////////////
 
 
 var prac_timeline_variable = [
+  {
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muttera1.wav",
+    "SoundB": "stimuli/50_0-1 pair_muttera7.wav",
+    "SoundX": "stimuli/50_0-1 pair_muttera1.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
+  {
+    "Content": "ムッテラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "50_Sokuon",
+    "SoundA": "stimuli/50_0-1 pair_muttera1.wav",
+    "SoundB": "stimuli/50_0-1 pair_muttera7.wav",
+    "SoundX": "stimuli/50_0-1 pair_muttera2.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
   {
     "Content": "レッデレ",
     "pair_type": "1-3 pair",
@@ -2305,5 +2577,55 @@ var prac_timeline_variable = [
     "SoundX": "stimuli/1-3 pair_reddere6.wav",
     "delay": 1000,
     "mora": 4
+  },
+  {
+    "Content": "ムデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_mudera7.wav",
+    "SoundB": "stimuli/1-2 pair_mudera1.wav",
+    "SoundX": "stimuli/1-2 pair_mudera5.wav",
+    "delay": 750,
+    "Mora": 3
+  },
+  {
+    "Content": "ムデラ",
+    "Pair_type": "1-2 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/1-2 pair_mudera1.wav",
+    "SoundB": "stimuli/1-2 pair_mudera7.wav",
+    "SoundX": "stimuli/1-2 pair_mudera6.wav",
+    "delay": 750,
+    "Mora": 3
+  },
+  {
+    "Content": "ムロレラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/2-3 pair_murorera1.wav",
+    "SoundB": "stimuli/2-3 pair_murorera7.wav",
+    "SoundX": "stimuli/2-3 pair_murorera5.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
+  {
+    "Content": "ムロレラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/2-3 pair_murorera7.wav",
+    "SoundB": "stimuli/2-3 pair_murorera1.wav",
+    "SoundX": "stimuli/2-3 pair_murorera6.wav",
+    "delay": 1000,
+    "Mora": 4
+  },
+  {
+    "Content": "ムロレラ",
+    "Pair_type": "2-3 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/2-3 pair_murorera1.wav",
+    "SoundB": "stimuli/2-3 pair_murorera7.wav",
+    "SoundX": "stimuli/2-3 pair_murorera7.wav",
+    "delay": 1000,
+    "Mora": 4
   }
  ];
