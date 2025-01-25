@@ -1,9 +1,3 @@
-// 初始化 jsPsych
-const jsPsych = initJsPsych({
-    on_finish: function() {
-        jsPsych.data.displayData(); // 实验结束后显示数据
-    }
-});
 
 // 设置进度条
 const jsPsych = initJsPsych({
