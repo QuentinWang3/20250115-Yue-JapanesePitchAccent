@@ -110,11 +110,10 @@ var play_sound = function(soundKey) {
         stimulus: jsPsych.timelineVariable(soundKey),
         choices: "NO_KEYS",
         trial_ends_after_audio: true,
-        prompt: function() {
-            return `
+        prompt: `
             <p style="white-space: nowrap; text-align: center; padding: 20px; background-color: lightgray;">
-            音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
-            </p>`},
+            ＃＃＃＃ 
+            </p>`,
     };
 };
 
