@@ -90,7 +90,7 @@ var fixation = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `<h1 style="font-size: 50px; text-align: center;">+</h1>`,
     choices: "NO_KEYS",
-    trial_duration: Math.floor(Math.random() * (3500-500) + 1000)
+    trial_duration: 1000
 };
 
 // 显示音声内容
@@ -129,7 +129,15 @@ var delay = {
     trial_duration: jsPsych.timelineVariable('delay'),
 };
 
-
+// 注视点后的delay；delay after fixation
+var delay_random = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus:`
+    <p>
+    </p>`,
+    choices: 'NO_KEYS',
+    trial_duration: Math.floor(Math.random() * (2500-500) + 1000),
+};
 
 //定义练习结束后的画面
 var prac_end = {
@@ -200,7 +208,7 @@ var axb_response = {
 //定义练习试次
 
 var axb_prac = {
-    timeline: [fixation, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_prac_response],
+    timeline: [fixation, delay_random, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_prac_response],
     timeline_variables: prac_timeline_variable,
     randomize_order : true,
 };
@@ -216,25 +224,25 @@ var axb_random_variable = shuffledList = [...axb_timeline_variable].sort(() => M
 
 
 var axb_trial_part_1 = {
-    timeline: [fixation, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
+    timeline: [fixation, delay_random, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
     timeline_variables: axb_random_variable.slice(0, quarter_trials),
     randomize_order : true,
 };
 
 var axb_trial_part_2 = {
-    timeline: [fixation, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
+    timeline: [fixation, delay_random, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
     timeline_variables: axb_random_variable.slice(quarter_trials, quarter_trials * 2),
     randomize_order : true,
 };
 
 var axb_trial_part_3 = {
-    timeline: [fixation, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
+    timeline: [fixation, delay_random, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
     timeline_variables: axb_random_variable.slice(quarter_trials * 2, quarter_trials * 3),
     randomize_order : true,
 };
 
 var axb_trial_part_4 = {
-    timeline: [fixation, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
+    timeline: [fixation, delay_random, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
     timeline_variables: axb_random_variable.slice(quarter_trials * 3),
     randomize_order : true,
 };
