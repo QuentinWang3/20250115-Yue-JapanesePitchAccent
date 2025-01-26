@@ -10,11 +10,12 @@
 
 0126
 - 刺激显示文本用####代替
+- 注视点后加入一个delay，随机数750～1500
+
 
 
 <to do>
 0126
-- 注视点后加入一个delay，随机数750～1500
 - 进度显示，用 当前trial数/总trial数 放在角落，代替当前的progress bar；（或者用更精确的进度条+百分比？）
 
 */
@@ -25,6 +26,8 @@
 const jsPsych = initJsPsych({
     use_webaudio:false,
     show_progress_bar:true,
+    auto_update_progress_bar: false, //手动设置进度条
+    message_progress_bar: "完成度",
     on_finish: function(){
         jsPsych.data.displayData();
     },
@@ -47,6 +50,10 @@ var name_input = {
     }
   };
 
+
+var n_trials = 262;
+
+
 // 开始页面
 // white-space:pre-wrap; 回车等于空行
 var start_experiment = {
@@ -67,6 +74,9 @@ var start_experiment = {
         </p>
     `,
     choices: ['練習を始めます'],
+    on_start: function(){
+        jsPsych.setProgressBar(0)
+    }, //手动设置进度条开始时间，并设定初始值为0
     on_finish: function() {
         const audioContext = jsPsych.pluginAPI.audioContext();
         if (audioContext && audioContext.state === 'suspended') {
@@ -150,7 +160,7 @@ var prac_end = {
     <p>
     この時点でご質問等ありましたら、Webページを閉じずに、実験実施者にお尋ねください。
 
-    実験の手順に関してご質問がないようでしたら、[B]キーを押すと、実験が始まります。
+    実験の手順に関してご質問がないようでしたら、下のボタンをクリックして本番セッションを始めてください。
     </p>
     `
 };
@@ -177,6 +187,10 @@ var axb_prac_response = {
         sound_a: jsPsych.timelineVariable('SoundA'),
         sound_b: jsPsych.timelineVariable('SoundB'),
         sound_x: jsPsych.timelineVariable('SoundX')
+    },
+    on_finish: function() {
+        var curr_progress_bar_value = jsPsych.getProgressBarCompleted();
+        jsPsych.setProgressBar(curr_progress_bar_value + (1/n_trials))
     }
 };
 
@@ -202,6 +216,10 @@ var axb_response = {
         sound_a: jsPsych.timelineVariable('SoundA'),
         sound_b: jsPsych.timelineVariable('SoundB'),
         sound_x: jsPsych.timelineVariable('SoundX')
+    },
+    on_finish: function() {
+        var curr_progress_bar_value = jsPsych.getProgressBarCompleted();
+        jsPsych.setProgressBar(curr_progress_bar_value + (1/n_trials))
     }
 };
 
@@ -210,7 +228,7 @@ var axb_response = {
 var axb_prac = {
     timeline: [fixation, delay_random, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_prac_response],
     timeline_variables: prac_timeline_variable,
-    randomize_order : true,
+    randomize_order : true
 };
 
 
@@ -226,25 +244,25 @@ var axb_random_variable = shuffledList = [...axb_timeline_variable].sort(() => M
 var axb_trial_part_1 = {
     timeline: [fixation, delay_random, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
     timeline_variables: axb_random_variable.slice(0, quarter_trials),
-    randomize_order : true,
+    randomize_order : true
 };
 
 var axb_trial_part_2 = {
     timeline: [fixation, delay_random, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
     timeline_variables: axb_random_variable.slice(quarter_trials, quarter_trials * 2),
-    randomize_order : true,
+    randomize_order : true
 };
 
 var axb_trial_part_3 = {
     timeline: [fixation, delay_random, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
     timeline_variables: axb_random_variable.slice(quarter_trials * 2, quarter_trials * 3),
-    randomize_order : true,
+    randomize_order : true
 };
 
 var axb_trial_part_4 = {
     timeline: [fixation, delay_random, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
     timeline_variables: axb_random_variable.slice(quarter_trials * 3),
-    randomize_order : true,
+    randomize_order : true
 };
 
 // 定义休息时间1
