@@ -95,11 +95,10 @@ var fixation = {
 // 显示音声内容
 var display_content = {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: function() {
-        return `
+    stimulus: `
         <p style="white-space: nowrap; text-align: center; padding: 20px; background-color: lightgray;">
-        音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
-        </p>`},
+        ＃＃＃＃
+        </p>`,
     choices: "NO_KEYS",
     trial_duration: 500
 };
@@ -122,11 +121,10 @@ var play_sound = function(soundKey) {
 //delay
 var delay = {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus:function() {
-        return `
-        <p style= "white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;">
-        音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
-        </p>`},
+    stimulus:`
+    <p style="white-space: nowrap; text-align: center; padding: 20px; background-color: lightgray;">
+    ＃＃＃＃
+    </p>`,
     choices: 'NO_KEYS',
     trial_duration: jsPsych.timelineVariable('delay'),
 };
@@ -153,15 +151,14 @@ var prac_end = {
 
 var axb_prac_response = {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: function(){
-        return `
+    stimulus: `
         <p style="white-space: nowrap; text-align: center; padding: 20px; background-color: lightgray;">
-        音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
+        ＃＃＃＃ 
         </p>
         <p style="width: 100%"> 
         2番の音声は1番の音声と似たアクセントであれば<span style="background-color: yellow;">[ A ]キー</span>を、
         3番の音声と似たアクセントであれば <span style="background-color: yellow;">[ B ]キー</span>を<u>押してください</u>。
-        </p>`},
+        </p>`,
     choices: ['a', 'b'],
     data: {
         phase: 'Practice',
@@ -179,15 +176,14 @@ var axb_prac_response = {
 // 用户响应
 var axb_response = {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: function(){
-        return `
+    stimulus: `
         <p style="white-space: nowrap; text-align: center; padding: 20px; background-color: lightgray;">
-        音声の内容は「<strong>${jsPsych.timelineVariable('Content')}</strong>」 
+        ＃＃＃＃ 
         </p>
         <p style="width: 100%"> 
         2番の音声は1番の音声と似たアクセントであれば<span style="background-color: yellow;">[ A ]キー</span>を、
         3番の音声と似たアクセントであれば <span style="background-color: yellow;">[ B ]キー</span>を<u>押してください</u>。
-        </p>`},
+        </p>`,
     choices: ['a', 'b'],
     data: {
         phase: 'axb',
