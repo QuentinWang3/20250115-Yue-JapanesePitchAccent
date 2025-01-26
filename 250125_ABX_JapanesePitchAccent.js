@@ -1,15 +1,19 @@
-//0125 changelog
+//changelog
 /* 
 <done>
+0125
 - 先随机化，然后划分成四个部分
 - stimuli list: 把content改为Content，增加了Sokuon_type一列，去掉了促音50%词之前的点
 - mora，content，sokuon_type在data里记录一下
 - list的数据列标题和变量调用名统一一下
 - 添加练习session
 
+0126
+- 刺激显示文本用####代替
+
 
 <to do>
-- 刺激显示文本用####代替
+0126
 - 注视点后加入一个delay，随机数750～1500
 - 进度显示，用 当前trial数/总trial数 放在角落，代替当前的progress bar；（或者用更精确的进度条+百分比？）
 
@@ -128,7 +132,16 @@ var delay = {
     trial_duration: jsPsych.timelineVariable('delay'),
 };
 
-
+// 注视点后的delay；delay after fixation
+var delay_random = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus:`
+    <p style="white-space: nowrap; text-align: center; padding: 20px; background-color: lightgray;">
+    random delay
+    </p>`,
+    choices: 'NO_KEYS',
+    trial_duration: Math.floor(Math.random() * (1500-750) + 750),
+};
 
 //定义练习结束后的画面
 var prac_end = {
@@ -199,7 +212,7 @@ var axb_response = {
 //定义练习试次
 
 var axb_prac = {
-    timeline: [fixation, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_prac_response],
+    timeline: [fixation, delay_random, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_prac_response],
     timeline_variables: prac_timeline_variable,
     randomize_order : true,
 };
@@ -215,7 +228,7 @@ var axb_random_variable = shuffledList = [...axb_timeline_variable].sort(() => M
 
 
 var axb_trial_part_1 = {
-    timeline: [fixation, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
+    timeline: [fixation, delay_random, display_content, play_sound('SoundA'), delay, play_sound('SoundX'), delay, play_sound('SoundB'), axb_response],
     timeline_variables: axb_random_variable.slice(0, quarter_trials),
     randomize_order : true,
 };

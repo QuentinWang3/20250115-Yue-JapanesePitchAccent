@@ -2552,31 +2552,34 @@ var prac_timeline_variable = [
     "Mora": 4
   },
   {
-    "Content": "レッデレ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/1-3 pair_reddere7.wav",
-    "SoundB": "stimuli/1-3 pair_reddere1.wav",
-    "SoundX": "stimuli/1-3 pair_reddere4.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murodera1.wav",
+    "SoundB": "stimuli/0-1 pair_murodera7.wav",
+    "SoundX": "stimuli/0-1 pair_murodera1.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "Content": "レッデレ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/1-3 pair_reddere7.wav",
-    "SoundB": "stimuli/1-3 pair_reddere1.wav",
-    "SoundX": "stimuli/1-3 pair_reddere5.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murodera1.wav",
+    "SoundB": "stimuli/0-1 pair_murodera7.wav",
+    "SoundX": "stimuli/0-1 pair_murodera2.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
-    "Content": "レッデレ",
-    "pair_type": "1-3 pair",
-    "SoundA": "stimuli/1-3 pair_reddere1.wav",
-    "SoundB": "stimuli/1-3 pair_reddere7.wav",
-    "SoundX": "stimuli/1-3 pair_reddere6.wav",
+    "Content": "ムロデラ",
+    "Pair_type": "0-1 pair",
+    "Sokuon_type": "",
+    "SoundA": "stimuli/0-1 pair_murodera7.wav",
+    "SoundB": "stimuli/0-1 pair_murodera1.wav",
+    "SoundX": "stimuli/0-1 pair_murodera3.wav",
     "delay": 1000,
-    "mora": 4
+    "Mora": 4
   },
   {
     "Content": "ムデラ",
